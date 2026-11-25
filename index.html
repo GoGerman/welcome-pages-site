@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chrome extension guides</title>
+  <style>
+    :root {
+      color-scheme: light;
+      color: #182638;
+      background: #eef2f7;
+      font: 16px/1.5 system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: clamp(16px, 5vw, 60px); }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: clamp(20px, 5vw, 40px);
+      border: 1px solid #cdd7e3;
+      border-radius: 16px;
+      background: #fff;
+    }
+    h1 { margin: 0 0 20px; font-size: clamp(26px, 5vw, 36px); line-height: 1.2; }
+    ul { margin: 0; padding: 0; list-style: none; }
+    li + li { margin-top: 8px; }
+    a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      color: #245ca0;
+      background: #f5f8fc;
+      font-weight: 600;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    a:focus-visible { outline: 3px solid #245ca0; outline-offset: 2px; }
+    img { flex: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Chrome extension guides</h1>
+    <nav aria-label="Welcome Page for each extension">
+      <ul>
+        <li><a href="./meta/"><img src="./assets/meta.png" width="36" height="36" alt="">Meta Tag Analyzer</a></li>
+        <li><a href="./etsy/"><img src="./assets/etsy.png" width="36" height="36" alt="">Etsy Scraper</a></li>
+        <li><a href="./apa/"><img src="./assets/apa.png" width="36" height="36" alt="">APA Website Citation Generator</a></li>
+        <li><a href="./pdf/"><img src="./assets/pdf.png" width="36" height="36" alt="">Remove Blank Pages from PDF</a></li>
+      </ul>
+    </nav>
+  </main>
+</body>
+</html>

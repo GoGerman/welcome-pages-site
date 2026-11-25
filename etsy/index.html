@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Getting started · Etsy Scraper</title><style>:root{font:17px/1.5 system-ui,sans-serif;color:#182d45;background:#f2f5fa}body{margin:0}main{max-width:650px;margin:50px auto;padding:32px;background:white;border:1px solid #c9d5e2;border-radius:14px}h1{font-size:clamp(28px,5vw,42px);line-height:1.07;margin:15px 0}h2{font-size:19px;margin:0 0 3px}ol{padding-left:25px;margin:28px 0}li{padding-left:6px;margin:17px 0}li::marker{font-weight:700;color:#365f9e}p{margin:0 0 12px}a{display:inline-block;background:#365f9e;color:white;font-weight:650;padding:9px 17px;border-radius:6px}a:focus-visible{outline:3px solid #b66800;outline-offset:3px}@media(max-width:680px){main{margin:0;padding:24px}}
+</style><script>// Chrome may dispatch a tap to a nearby control, including when the contact was outside it.
+(() => {
+  const missed = new Set();
+  const controlAtTarget = target => target.closest?.('button, input, a[href]');
+  function hitsControl(control, touch) {
+    return control.contains(document.elementFromPoint(touch.clientX, touch.clientY));
+  }
+  document.addEventListener('touchstart', event => {
+    const control = controlAtTarget(event.target);
+    for (const touch of event.changedTouches) {
+      if (control && !hitsControl(control, touch)) missed.add(touch.identifier);
+    }
+  }, { capture: true, passive: true });
+  document.addEventListener('touchend', event => {
+    const control = controlAtTarget(event.target);
+    for (const touch of event.changedTouches) {
+      if (missed.delete(touch.identifier) || (control && !hitsControl(control, touch))) {
+        event.preventDefault();
+      }
+    }
+  }, { capture: true, passive: false });
+  document.addEventListener('touchcancel', event => {
+    for (const touch of event.changedTouches) missed.delete(touch.identifier);
+  }, { capture: true, passive: true });
+})();
+</script><link rel="icon" href="../assets/etsy.png" type="image/png"></head>
+<body><main><img src="../assets/etsy.png" width="48" height="48" alt=""><h1>Export your first set of listings</h1><p>Keep an Etsy list and its prices together in a CSV file. Start with a page where you have permission to collect the visible cards.</p>
+<ol><li><h2>Open the source</h2><p>Go to a public Etsy search, shop, market or category page. Load the listings you want to compare.</p></li><li><h2>Open Etsy Scraper</h2><p id="toolbar" aria-live="polite">In Chrome’s Extensions menu, choose Etsy Scraper. You can pin it there to keep its icon beside the address bar.</p></li><li><h2>Review and download</h2><p>Select <strong>Collect loaded cards</strong>. Compare the displayed prices and any gaps with the source. Select the review checkbox, then <strong>Download CSV</strong> or <strong>Download partial CSV</strong>.</p></li></ol>
+<a href="https://www.etsy.com/" target="_blank" rel="noopener noreferrer">Open Etsy</a></main></body></html>
