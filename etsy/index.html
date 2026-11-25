@@ -1,31 +1,75 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Getting started · Etsy Scraper</title><style>:root{font:17px/1.5 system-ui,sans-serif;color:#182d45;background:#f2f5fa}body{margin:0}main{max-width:650px;margin:50px auto;padding:32px;background:white;border:1px solid #c9d5e2;border-radius:14px}h1{font-size:clamp(28px,5vw,42px);line-height:1.07;margin:15px 0}h2{font-size:19px;margin:0 0 3px}ol{padding-left:25px;margin:28px 0}li{padding-left:6px;margin:17px 0}li::marker{font-weight:700;color:#365f9e}p{margin:0 0 12px}a{display:inline-block;background:#365f9e;color:white;font-weight:650;padding:9px 17px;border-radius:6px}a:focus-visible{outline:3px solid #b66800;outline-offset:3px}@media(max-width:680px){main{margin:0;padding:24px}}
-</style><script>// Chrome may dispatch a tap to a nearby control, including when the contact was outside it.
-(() => {
-  const missed = new Set();
-  const controlAtTarget = target => target.closest?.('button, input, a[href]');
-  function hitsControl(control, touch) {
-    return control.contains(document.elementFromPoint(touch.clientX, touch.clientY));
-  }
-  document.addEventListener('touchstart', event => {
-    const control = controlAtTarget(event.target);
-    for (const touch of event.changedTouches) {
-      if (control && !hitsControl(control, touch)) missed.add(touch.identifier);
-    }
-  }, { capture: true, passive: true });
-  document.addEventListener('touchend', event => {
-    const control = controlAtTarget(event.target);
-    for (const touch of event.changedTouches) {
-      if (missed.delete(touch.identifier) || (control && !hitsControl(control, touch))) {
-        event.preventDefault();
-      }
-    }
-  }, { capture: true, passive: false });
-  document.addEventListener('touchcancel', event => {
-    for (const touch of event.changedTouches) missed.delete(touch.identifier);
-  }, { capture: true, passive: true });
-})();
-</script><link rel="icon" href="../assets/etsy.png" type="image/png"></head>
-<body><main><img src="../assets/etsy.png" width="48" height="48" alt=""><h1>Export your first set of listings</h1><p>Keep an Etsy list and its prices together in a CSV file. Start with a page where you have permission to collect the visible cards.</p>
-<ol><li><h2>Open the source</h2><p>Go to a public Etsy search, shop, market or category page. Load the listings you want to compare.</p></li><li><h2>Open Etsy Scraper</h2><p id="toolbar" aria-live="polite">In Chrome’s Extensions menu, choose Etsy Scraper. You can pin it there to keep its icon beside the address bar.</p></li><li><h2>Review and download</h2><p>Select <strong>Collect loaded cards</strong>. Compare the displayed prices and any gaps with the source. Select the review checkbox, then <strong>Download CSV</strong> or <strong>Download partial CSV</strong>.</p></li></ol>
-<a href="https://www.etsy.com/" target="_blank" rel="noopener noreferrer">Open Etsy</a></main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Get started · Etsy Scraper</title>
+  <link rel="icon" href="../assets/etsy.png" type="image/png">
+  <link rel="stylesheet" href="../assets/welcome.css">
+  <script src="../assets/welcome.js" defer></script>
+</head>
+<body data-project="etsy">
+  <main class="welcome" data-welcome data-mode="pin">
+    <header class="product">
+      <img src="../assets/etsy.png" alt="" width="48" height="48">
+      <p>Etsy Scraper</p>
+    </header>
+
+    <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
+      <div class="pin-layout">
+        <div class="pin-copy">
+          <h1 id="pin-title" tabindex="-1">Pin it to your toolbar</h1>
+          <ol>
+            <li>Click <strong>Extensions</strong>, the puzzle piece beside Chrome’s address bar.</li>
+            <li>Click the <strong>pin</strong> next to <strong>Etsy Scraper</strong>. Its icon will appear on your toolbar.</li>
+          </ol>
+          <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+        </div>
+        <figure class="screenshot">
+          <img src="../assets/etsy-pin.webp" width="347" height="277" alt="Chrome’s Extensions menu with the pin beside Etsy Scraper, followed by the toolbar with the pinned icon.">
+          <figcaption>The Extensions menu above and the toolbar after pinning below.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
+      <h1 id="usage-title" tabindex="-1">Export your first set of listings</h1>
+      <p class="intro">Open a public Etsy search results page or shop with visible product cards.</p>
+      <p><a class="example-link" href="https://www.etsy.com/market/ceramic_mug" target="_blank" rel="noopener noreferrer">Try the ceramic mug listings on Etsy</a></p>
+      <a class="mode-switch" href="#pin">Show how to pin it</a>
+      <ol class="steps">
+        <li>
+          <div class="step-copy">
+            <h2>Collect the loaded cards</h2>
+            <p>With the Etsy tab active, click <strong>Etsy Scraper</strong> on the toolbar or in Chrome’s Extensions menu. In the workspace, click <strong>Collect loaded cards</strong>.</p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/etsy-step-1.webp" width="460" height="129" alt="An Etsy Scraper workspace linked to its source page, with the Collect loaded cards button ready." loading="lazy">
+          </figure>
+        </li>
+        <li>
+          <div class="step-copy">
+            <h2>Review the table</h2>
+            <p>Compare the table and its gaps with the source cards. Check the prices as shown on Etsy, then select <strong>I checked the table, gaps and displayed prices.</strong></p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/etsy-step-2.webp" width="373" height="276" alt="The captured cards table and the checkbox for confirming the table, gaps and displayed prices." loading="lazy">
+            <figcaption>Practice listings in the Etsy Scraper workspace</figcaption>
+          </figure>
+        </li>
+        <li>
+          <div class="step-copy">
+            <h2>Download the CSV</h2>
+            <p>Click <strong>Download CSV</strong> after reviewing the table. Open the saved file from Chrome’s Downloads.</p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/etsy-step-3.webp" width="143" height="61" alt="The Download CSV button enabled after reviewing the Etsy Scraper table." loading="lazy">
+          </figure>
+        </li>
+      </ol>
+      <p class="tip">If the capture has gaps, the button reads <strong>Download partial CSV</strong>. It saves the captured table with those gaps.</p>
+    </section>
+  </main>
+</body>
+</html>

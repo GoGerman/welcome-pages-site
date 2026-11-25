@@ -1,9 +1,82 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Getting started · APA Website Citation Generator</title><style>:root{font:18px/1.6 system-ui,sans-serif;color:#183b32;background:#eef5f0}body{margin:0;padding:clamp(16px,5vw,72px)}main{max-width:40rem;margin:auto;padding:clamp(24px,5vw,56px);background:white;border:1px solid #cadaD0;border-radius:16px}h1{font:600 clamp(32px,6vw,54px)/1.1 Georgia,serif;letter-spacing:-.04em}ol{padding-left:1.6rem;margin:2rem 0 0}li{margin:1.2rem 0;padding-left:.4rem}a{color:#086a56}a:focus-visible{outline:3px solid #00a785;outline-offset:2px}
-</style><link rel="icon" href="../assets/apa.png" type="image/png"></head>
-<body><main><img src="../assets/apa.png" width="64" height="64" alt=""><h1>Cite your first webpage</h1>
-<p>APA Website Citation Generator turns one open webpage into an editable APA 7 reference.</p>
-<ol><li><strong>Open the publication.</strong> Use an article you want to cite, or <a href="https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/" target="_blank" rel="noreferrer">open the NASA example</a>.</li>
-<li><strong>Open the extension on that tab.</strong> <span id="pin-step">Choose APA Website Citation Generator from Chrome’s Extensions menu or its pinned toolbar icon.</span></li>
-<li><strong>Choose “Read page details”.</strong> Compare the suggestions with the byline and publication date. Correct any field and mark missing details.</li>
-<li><strong>Copy the reference.</strong> Select “I checked the source details”, choose “Create reference”, then “Copy reference”. Paste into your editor. Apply italics to the title and a hanging indent in the document.</li></ol></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Get started · APA Website Citation Generator</title>
+  <link rel="icon" href="../assets/apa.png" type="image/png">
+  <link rel="stylesheet" href="../assets/welcome.css">
+  <script src="../assets/welcome.js" defer></script>
+</head>
+<body data-project="apa">
+  <main class="welcome" data-welcome data-mode="pin">
+    <header class="product">
+      <img src="../assets/apa.png" alt="" width="48" height="48">
+      <p>APA Website Citation Generator</p>
+    </header>
+
+    <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
+      <div class="pin-layout">
+        <div class="pin-copy">
+          <h1 id="pin-title" tabindex="-1">Pin it to your toolbar</h1>
+          <ol>
+            <li>Click <strong>Extensions</strong>, the puzzle piece beside Chrome’s address bar.</li>
+            <li>Click the <strong>pin</strong> next to <strong>APA Website Citation Generator</strong>. Its icon will appear on your toolbar.</li>
+          </ol>
+          <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+        </div>
+        <figure class="screenshot">
+          <img src="../assets/apa-pin.webp" width="347" height="277" alt="Chrome’s Extensions menu with the pin beside APA Website Citation Generator, followed by the toolbar with the pinned icon.">
+          <figcaption>The Extensions menu above and the toolbar after pinning below.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
+      <h1 id="usage-title" tabindex="-1">Create your first APA 7 reference</h1>
+      <a class="mode-switch" href="#pin">Show how to pin it</a>
+      <ol class="steps">
+        <li>
+          <div class="step-copy">
+            <h2>Open the extension from the article</h2>
+            <p>With the article open in Chrome, click <strong>APA Website Citation Generator</strong> on the toolbar or in Chrome’s Extensions menu.</p>
+            <p><a class="example-link" href="https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/" target="_blank" rel="noopener noreferrer">Try the NASA article</a></p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/apa-step-1.webp" width="466" height="45" alt="A NASA article open in Chrome with the APA Website Citation Generator icon on the toolbar." loading="lazy">
+          </figure>
+        </li>
+        <li>
+          <div class="step-copy">
+            <h2>Read the article details</h2>
+            <p>In the workspace that opens, click <strong>Read page details</strong>. Compare the suggested author, date, title, website name, and URL with the article.</p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/apa-step-2.webp" width="470" height="440" alt="The Read page details button and the form with the NASA article date, title and website name filled in." loading="lazy">
+          </figure>
+        </li>
+        <li>
+          <div class="step-copy">
+            <h2>Check the fields and create the reference</h2>
+            <p>Correct any fields that need editing. If the author appears as a single suggestion, fill in <strong>Family name</strong> and <strong>Given names</strong>. Select <strong>I checked the source details.</strong> Then click <strong>Create reference</strong>.</p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/apa-step-3.webp" width="560" height="113" alt="The source details confirmation checkbox and the Create reference button below the reference form." loading="lazy">
+          </figure>
+        </li>
+        <li>
+          <div class="step-copy">
+            <h2>Copy the APA 7 reference</h2>
+            <p>Click <strong>Copy reference</strong> to copy the reference to your clipboard.</p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/apa-step-4.webp" width="376" height="402" alt="The generated APA 7 reference for the NASA article and its Copy reference button." loading="lazy">
+          </figure>
+        </li>
+      </ol>
+      <p class="tip">After pasting the reference, apply italics where needed and add a hanging indent.</p>
+    </section>
+  </main>
+</body>
+</html>

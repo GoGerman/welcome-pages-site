@@ -1,16 +1,73 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Get started · Meta Tag Analyzer</title><style>:root{color-scheme:light;--ink:#182638;--muted:#5b6a7e;--line:#cdd7e3;--brand:#245ca0;--bg:#eef2f7;--blue:#eef5ff;--amber:#fff6e4}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Arial,Helvetica,sans-serif}main{max-width:1220px;min-height:calc(100vh - 64px);margin:32px auto;padding:28px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 38px #2039550b}.hero{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:20px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px}.brand img{border-radius:10px}h1{margin:0;font-size:27px;letter-spacing:-.5px;line-height:1.2}.status-badge{border:1px solid #cadcf3;border-radius:24px;padding:6px 12px;background:var(--blue);color:var(--brand);font-size:14px;font-weight:700}.source-bar{padding:20px 0 12px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}.meta-label{font-weight:700;color:var(--muted)}.source-url{overflow-wrap:anywhere;font:inherit}.capture-time{display:flex;flex-wrap:wrap;align-items:center;gap:10px;width:100%;color:var(--muted);font-size:14px}.snapshot-tag{background:#f1f4f8;border-radius:16px;padding:3px 9px;font-size:13px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;padding:8px 0 14px}.button{font:inherit;line-height:1.2;cursor:pointer;border:1px solid #94b0d1;color:var(--brand);background:#f3f7fd;border-radius:8px;padding:10px 14px;transition:background .1s}.button:hover:not(:disabled){background:#e6f0fe}.button.primary{background:var(--brand);color:white;border-color:var(--brand)}.button:focus-visible{outline:3px solid #6b96cc;outline-offset:3px}.button:disabled{color:#8793a3;border-color:#d5dce5;background:#f1f3f6;cursor:not-allowed}.live-status:empty{display:none}.live-status p{margin:8px 0 14px}.alert{padding:10px 14px;border:1px solid #ccdcf2;border-radius:8px;background:var(--blue)}.alert.warning,.status-badge.warning{color:#86500c;border-color:#e5c78c;background:var(--amber)}.muted{color:var(--muted)}.small{font-size:13px}.report{margin:16px 0;overflow:auto;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;table-layout:fixed}thead{background:#edf3fb}th,td{border-bottom:1px solid var(--line);vertical-align:top;text-align:left;padding:12px;overflow-wrap:anywhere}thead th:nth-child(1){width:19%}thead th:nth-child(2){width:7%}thead th:nth-child(3){width:47%}thead th:nth-child(4){width:27%}tbody tr:last-child>*{border-bottom:0}.field{font-size:15px;font-weight:600;background:#fbfcfe}.group-name{display:block;font-weight:700;color:var(--muted);font-size:12px;margin-bottom:4px}.count{font-variant-numeric:tabular-nums}.values{padding-left:20px;margin:0}.values li+li{margin-top:10px}.raw-value{white-space:pre-wrap}.value-pair{margin-bottom:5px;white-space:pre-wrap}.value-pair:last-child{margin-bottom:0}.value-label{display:block;font-size:12px;color:var(--muted);font-weight:700}code{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;overflow-wrap:anywhere}.notes{font-size:14px}.note{display:inline-block;margin:0 4px 5px 0;padding:3px 7px;border-radius:5px;color:#27598f;background:#edf4fe;font-size:12px}.note.warning{color:#86500c;background:var(--amber)}.stale{background:#f7f8fa;color:#758297}.stale .field{background:#f4f6f8;color:#758297}.stale .note{background:#edf0f4;color:#758297}.scope{padding-top:18px;margin-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}@media(max-width:700px){main{margin:12px;padding:16px;border-radius:12px}.hero{align-items:flex-start;flex-direction:column;gap:12px}h1{font-size:24px}table{min-width:760px}.button{padding:9px 11px}.source-bar{padding-top:14px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Get started · Meta Tag Analyzer</title>
+  <link rel="icon" href="../assets/meta.png" type="image/png">
+  <link rel="stylesheet" href="../assets/welcome.css">
+  <script src="../assets/welcome.js" defer></script>
+</head>
+<body data-project="meta">
+  <main class="welcome" data-welcome data-mode="pin">
+    <header class="product">
+      <img src="../assets/meta.png" alt="" width="48" height="48">
+      <p>Meta Tag Analyzer</p>
+    </header>
 
-.welcome{max-width:680px;margin:clamp(20px,8vh,80px) auto;padding:clamp(24px,6vw,56px);min-height:auto}
-.welcome header{display:flex;align-items:center;gap:12px;color:var(--brand);font-weight:700}
-.welcome h1{margin:28px 0;font-size:clamp(30px,6vw,44px)}
-.welcome ol{padding-inline-start:1.5em}.welcome li{padding-left:6px;margin:22px 0}
-.welcome p{margin:5px 0;color:var(--muted)}.welcome a{color:var(--brand)}
-</style><link rel="icon" href="../assets/meta.png"></head>
-<body><main class="welcome"><header><img src="../assets/meta.png" alt="" width="48" height="48"><span>Meta Tag Analyzer</span></header>
-<h1>Inspect your first page</h1><ol>
-<li><strong>Open the page you want to check.</strong><p>Keep it open in Chrome. To try a public page, use the <a href="https://developer.chrome.com/docs/extensions/" target="_blank" rel="noopener noreferrer">Chrome extensions guide</a>.</p></li>
-<li><strong>Click the extension on that page.</strong><p id="pin" aria-live="polite">Find Meta Tag Analyzer in Chrome’s Extensions menu or on your toolbar.</p></li>
-<li><strong>Choose Scan page.</strong><p>The report opens in a separate tab. Review its counts and values. After an edit, choose Refresh report. Download JSON or text to keep the snapshot.</p></li>
-</ol></main></body></html>
+    <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
+      <div class="pin-layout">
+        <div class="pin-copy">
+          <h1 id="pin-title" tabindex="-1">Pin it to your toolbar</h1>
+          <ol>
+            <li>Click <strong>Extensions</strong>, the puzzle piece beside Chrome’s address bar.</li>
+            <li>Click the <strong>pin</strong> next to <strong>Meta Tag Analyzer</strong>. Its icon will appear on your toolbar.</li>
+          </ol>
+          <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+        </div>
+        <figure class="screenshot">
+          <img src="../assets/meta-pin.webp" width="347" height="277" alt="Chrome’s Extensions menu with the pin beside Meta Tag Analyzer, followed by the toolbar with the pinned icon.">
+          <figcaption>The Extensions menu above and the toolbar after pinning below.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
+      <h1 id="usage-title" tabindex="-1">Inspect your first page</h1>
+      <a class="mode-switch" href="#pin">Show how to pin it</a>
+      <ol class="steps">
+        <li>
+          <div class="step-copy">
+            <h2>Open the analyzer</h2>
+            <p>Open the page you want to check and let it finish loading. Click <strong>Meta Tag Analyzer</strong> on the toolbar or in Chrome’s Extensions menu.</p>
+            <p><a class="example-link" href="https://developer.chrome.com/docs/extensions/" target="_blank" rel="noopener noreferrer">Try the Chrome extensions guide</a></p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/meta-step-1.webp" width="466" height="45" alt="The Chrome extensions guide open with the Meta Tag Analyzer icon on the toolbar." loading="lazy">
+          </figure>
+        </li>
+        <li>
+          <div class="step-copy">
+            <h2>Scan the source page</h2>
+            <p>In the Meta Tag Analyzer tab that opens, click <strong>Scan page</strong>.</p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/meta-step-2.webp" width="475" height="130" alt="The Meta Tag Analyzer workspace showing the selected source URL and the Scan page button." loading="lazy">
+          </figure>
+        </li>
+        <li>
+          <div class="step-copy">
+            <h2>Read the report</h2>
+            <p>Check the source URL at the top. Review the <strong>counts and values</strong> for the page title, description, and other metadata.</p>
+          </div>
+          <figure class="screenshot">
+            <img src="../assets/meta-step-3.webp" width="816" height="660" alt="A completed Meta Tag Analyzer report with the Chrome extensions guide as its source and the detected metadata in a table." loading="lazy">
+          </figure>
+        </li>
+      </ol>
+      <p class="tip">Use <strong>Refresh report</strong> after editing the source. To save the report, choose <strong>Download JSON</strong> or <strong>Download text</strong>.</p>
+    </section>
+  </main>
+</body>
+</html>
