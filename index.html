@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chrome extension guides</title>
+  <title data-i18n="index.title">Chrome extension guides</title>
   <style>
     :root {
       color-scheme: light;
@@ -39,16 +39,27 @@
     a:focus-visible { outline: 3px solid #245ca0; outline-offset: 2px; }
     img { flex: none; }
   </style>
+  <link rel="stylesheet" href="./assets/locale.css">
+  <script src="./assets/welcome.js" type="module"></script>
 </head>
 <body>
   <main>
-    <h1>Chrome extension guides</h1>
-    <nav aria-label="Welcome Page for each extension">
+    <header class="index-header">
+      <h1 data-i18n="index.heading">Chrome extension guides</h1>
+      <div class="language-picker" data-language-picker hidden>
+        <span id="language-label" data-i18n="common.language.label">Language</span>
+        <select data-language-select aria-labelledby="language-label">
+          <option value="auto" data-i18n="common.language.auto">Browser default</option>
+        </select>
+      </div>
+    </header>
+    <p class="language-status" data-language-status data-i18n="common.language.fallback" role="status" hidden>Some of this guide is shown in English.</p>
+    <nav aria-label="Welcome Page for each extension" data-i18n-aria-label="index.navigation">
       <ul>
-        <li><a href="./meta/"><img src="./assets/meta.png" width="36" height="36" alt="">Meta Tag Analyzer</a></li>
-        <li><a href="./etsy/"><img src="./assets/etsy.png" width="36" height="36" alt="">Etsy Scraper</a></li>
-        <li><a href="./apa/"><img src="./assets/apa.png" width="36" height="36" alt="">APA Website Citation Generator</a></li>
-        <li><a href="./pdf/"><img src="./assets/pdf.png" width="36" height="36" alt="">Remove Blank Pages from PDF</a></li>
+        <li><a href="./meta/" data-language-link><img src="./assets/meta.png" width="36" height="36" alt=""><span data-i18n="meta.name">Meta Tag Analyzer</span></a></li>
+        <li><a href="./etsy/" data-language-link><img src="./assets/etsy.png" width="36" height="36" alt=""><span data-i18n="etsy.name">Etsy Scraper</span></a></li>
+        <li><a href="./apa/" data-language-link><img src="./assets/apa.png" width="36" height="36" alt=""><span data-i18n="apa.name">APA Website Citation Generator</span></a></li>
+        <li><a href="./pdf/" data-language-link><img src="./assets/pdf.png" width="36" height="36" alt=""><span data-i18n="pdf.name">Remove Blank Pages from PDF</span></a></li>
       </ul>
     </nav>
   </main>

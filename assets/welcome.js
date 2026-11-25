@@ -1,7 +1,32 @@
-(() => {
-  const page = document.querySelector('[data-welcome]');
-  const params = new URLSearchParams(location.search);
-  const id = params.get('id');
+import {startLanguages} from './locale.js';
+
+const page = document.querySelector('[data-welcome]');
+const params = new URLSearchParams(location.search);
+const id = params.get('id');
+const routes = {meta: '/meta/', etsy: '/etsy/', apa: '/apa/', pdf: '/pdf/'};
+const pairedGuide = page && /^[a-p]{32}$/.test(id ?? '') &&
+  location.origin === 'https://welcomeplugin.com' && location.pathname === routes[document.body.dataset.project];
+
+function sendMessage(message) {
+  const runtime = window.chrome?.runtime;
+  if (typeof runtime?.sendMessage !== 'function') return Promise.resolve();
+  return new Promise(resolve => {
+    const deadline = setTimeout(resolve, 2000);
+    try {
+      runtime.sendMessage(id, message, response => {
+        clearTimeout(deadline);
+        resolve(runtime.lastError ? undefined : response);
+      });
+    } catch {
+      clearTimeout(deadline);
+      resolve();
+    }
+  });
+}
+
+void startLanguages(pairedGuide ? sendMessage : null);
+
+if (page) {
   const hint = params.get('pinned');
   const hintedMode = hint === '1' ? 'usage' : 'pin';
   let liveMode;
@@ -17,40 +42,21 @@
     page.dataset.mode = manualMode() ?? liveMode ?? hintedMode;
   }
 
-  function requestPinState(runtime) {
-    return new Promise(resolve => {
-      const deadline = setTimeout(resolve, 2000);
-      try {
-        runtime.sendMessage(id, {type: 'getPinState'}, response => {
-          clearTimeout(deadline);
-          if (runtime.lastError || typeof response?.pinned !== 'boolean') {
-            resolve();
-            return;
-          }
-          resolve(response.pinned ? 'usage' : 'pin');
-        });
-      } catch {
-        clearTimeout(deadline);
-        resolve();
-      }
-    });
-  }
-
-  async function poll(runtime, current) {
-    const mode = await requestPinState(runtime);
+  async function poll(current) {
+    const response = await sendMessage({type: 'getPinState'});
+    const mode = typeof response?.pinned === 'boolean' ? (response.pinned ? 'usage' : 'pin') : undefined;
     if (current !== generation || document.hidden) return;
     liveMode = mode;
     render();
-    pollTimer = setTimeout(() => poll(runtime, current), mode ? 1500 : 5000);
+    pollTimer = setTimeout(() => poll(current), mode ? 1500 : 5000);
   }
 
   function syncPolling() {
     clearTimeout(pollTimer);
     const current = ++generation;
-    const runtime = window.chrome?.runtime;
-    if (!document.hidden && !manualMode() && /^[a-p]{32}$/.test(id ?? '') &&
-        typeof runtime?.sendMessage === 'function') {
-      void poll(runtime, current);
+    if (!document.hidden && !manualMode() && pairedGuide &&
+        typeof window.chrome?.runtime?.sendMessage === 'function') {
+      void poll(current);
     }
   }
 
@@ -105,4 +111,4 @@
     document.querySelector(`${link.hash} h1`)?.focus();
     window.scrollTo(0, 0);
   }, {capture: true});
-})();
+}

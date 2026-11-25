@@ -4,88 +4,98 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <title>Get started · Etsy Scraper</title>
+  <title data-i18n="etsy.title">Get started · Etsy Scraper</title>
   <link rel="icon" href="../assets/etsy.png" type="image/png">
   <link rel="stylesheet" href="../assets/welcome.css">
-  <script src="../assets/welcome.js" defer></script>
+  <link rel="stylesheet" href="../assets/locale.css">
+  <script src="../assets/welcome.js" type="module"></script>
   <script src="../assets/confetti.js" defer></script>
 </head>
 <body data-project="etsy">
   <main class="welcome" data-welcome data-mode="pin">
     <header class="product">
       <img src="../assets/etsy.png" alt="" width="48" height="48">
-      <p>Etsy Scraper</p>
+      <p data-i18n="etsy.name">Etsy Scraper</p>
+      <div class="language-picker" data-language-picker hidden>
+        <span id="language-label" data-i18n="common.language.label">Language</span>
+        <select data-language-select aria-labelledby="language-label">
+          <option value="auto" data-i18n="common.language.auto">Browser default</option>
+        </select>
+      </div>
     </header>
+    <p class="language-status" data-language-status data-i18n="common.language.fallback" role="status" hidden>Some of this guide is shown in English.</p>
 
     <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
       <span class="toolbar-cue" aria-hidden="true"></span>
       <header class="guide-intro">
-        <h1 id="pin-title" tabindex="-1">Welcome to Etsy Scraper</h1>
-        <p>Review visible Etsy listings and save them as a CSV.</p>
-        <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+        <h1 id="pin-title" tabindex="-1" data-i18n="common.pin.welcome">Welcome to <span data-i18n-part="product" data-i18n="etsy.name">Etsy Scraper</span></h1>
+        <p data-i18n="etsy.pin.summary">Review visible Etsy listings and save them as a CSV.</p>
+        <a class="mode-switch" href="#usage" data-i18n="common.mode.showUsage">Already pinned? See how to use it.</a>
       </header>
       <ol class="pin-steps" role="list">
         <li>
           <div class="pin-step-copy">
-            <h2>Pin the extension</h2>
-            <p>Click <strong>Extensions</strong> in the Chrome toolbar, then click the <strong>pin</strong> beside Etsy Scraper.</p>
+            <h2 data-i18n="common.pin.heading">Pin the extension</h2>
+            <p data-i18n="common.pin.instructions">Click <strong data-i18n-part="extensions" data-i18n="common.chrome.extensions">Extensions</strong> in the Chrome toolbar, then click the <strong data-i18n-part="pin" data-i18n="common.chrome.pin">pin</strong> beside <span data-i18n-part="product" data-i18n="etsy.name">Etsy Scraper</span>.</p>
           </div>
           <figure class="pin-photo pin-photo--menu">
-            <img src="../assets/etsy-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside Etsy Scraper.">
+            <img src="../assets/etsy-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside Etsy Scraper." data-i18n-alt="etsy.pin.menuAlt">
             <span class="pin-marker pin-marker--extensions" aria-hidden="true"></span>
             <span class="pin-marker pin-marker--pin" aria-hidden="true"></span>
           </figure>
         </li>
         <li>
           <div class="pin-step-copy">
-            <h2>Open the extension</h2>
-            <p>Open an Etsy results page or shop with visible product cards, then click <strong>Etsy Scraper</strong> on your Chrome toolbar.</p>
+            <h2 data-i18n="common.pin.openHeading">Open the extension</h2>
+            <p data-i18n="etsy.pin.open">Open an Etsy results page or shop with visible product cards, then click <strong data-i18n-part="product" data-i18n="etsy.name">Etsy Scraper</strong> on your Chrome toolbar.</p>
           </div>
           <figure class="pin-photo pin-photo--pinned">
-            <img src="../assets/etsy-pinned.webp" width="806" height="102" alt="The blue Etsy Scraper icon pinned beside Chrome’s Extensions button.">
+            <img src="../assets/etsy-pinned.webp" width="806" height="102" alt="The blue Etsy Scraper icon pinned beside Chrome’s Extensions button." data-i18n-alt="etsy.pin.pinnedAlt">
             <span class="pin-marker pin-marker--icon" aria-hidden="true"></span>
           </figure>
         </li>
       </ol>
-      <p class="pin-caption">Chrome screenshots</p>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
+      <p class="pin-caption" data-i18n="common.screenshot.chrome">Chrome screenshots</p>
     </section>
 
     <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
-      <h1 id="usage-title" tabindex="-1">Export your first set of listings</h1>
-      <p class="intro">Open a public Etsy search results page or shop with visible product cards.</p>
-      <p><a class="example-link" href="https://www.etsy.com/market/ceramic_mug" target="_blank" rel="noopener noreferrer">Try the ceramic mug listings on Etsy</a></p>
-      <a class="mode-switch" href="#pin">Show how to pin it</a>
+      <h1 id="usage-title" tabindex="-1" data-i18n="etsy.usage.heading">Export your first set of listings</h1>
+      <p class="intro" data-i18n="etsy.usage.intro">Open a public Etsy search results page or shop with visible product cards.</p>
+      <p><a class="example-link" href="https://www.etsy.com/market/ceramic_mug" target="_blank" rel="noopener noreferrer" data-i18n="etsy.usage.example">Try the ceramic mug listings on Etsy</a></p>
+      <a class="mode-switch" href="#pin" data-i18n="common.mode.showPin">Show how to pin it</a>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
       <ol class="steps">
         <li>
           <div class="step-copy">
-            <h2>Collect the loaded cards</h2>
-            <p>With the Etsy tab active, click <strong>Etsy Scraper</strong> on the toolbar or in Chrome’s Extensions menu. In the workspace, click <strong>Collect loaded cards</strong>.</p>
+            <h2 data-i18n="etsy.usage.step1.title">Collect the loaded cards</h2>
+            <p data-i18n="etsy.usage.step1.body">With the Etsy tab active, click <strong data-i18n-part="product" data-i18n="etsy.name">Etsy Scraper</strong> on the toolbar or in Chrome’s Extensions menu. In the workspace, click <strong data-i18n-part="collectCards" data-i18n="etsy.control.collectCards">Collect loaded cards</strong>.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/etsy-step-1.webp" width="460" height="129" alt="An Etsy Scraper workspace linked to its source page, with the Collect loaded cards button ready." loading="lazy">
+            <img src="../assets/etsy-step-1.webp" width="460" height="129" alt="An Etsy Scraper workspace linked to its source page, with the Collect loaded cards button ready." data-i18n-alt="etsy.usage.step1.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Review the table</h2>
-            <p>Compare the table and its gaps with the source cards. Check the prices as shown on Etsy, then select <strong>I checked the table, gaps and displayed prices.</strong></p>
+            <h2 data-i18n="etsy.usage.step2.title">Review the table</h2>
+            <p data-i18n="etsy.usage.step2.body">Compare the table and its gaps with the source cards. Check the prices as shown on Etsy, then select <strong data-i18n-part="confirmTable" data-i18n="etsy.control.confirmTable">I checked the table, gaps and displayed prices.</strong></p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/etsy-step-2.webp" width="373" height="276" alt="The captured cards table and the checkbox for confirming the table, gaps and displayed prices." loading="lazy">
-            <figcaption>Practice listings in the Etsy Scraper workspace</figcaption>
+            <img src="../assets/etsy-step-2.webp" width="373" height="276" alt="The captured cards table and the checkbox for confirming the table, gaps and displayed prices." data-i18n-alt="etsy.usage.step2.imageAlt" loading="lazy">
+            <figcaption data-i18n="etsy.usage.step2.caption">Practice listings in the Etsy Scraper workspace</figcaption>
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Download the CSV</h2>
-            <p>Click <strong>Download CSV</strong> after reviewing the table. Open the saved file from Chrome’s Downloads.</p>
+            <h2 data-i18n="etsy.usage.step3.title">Download the CSV</h2>
+            <p data-i18n="etsy.usage.step3.body">Click <strong data-i18n-part="downloadCsv" data-i18n="etsy.control.downloadCsv">Download CSV</strong> after reviewing the table. Open the saved file from Chrome’s Downloads.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/etsy-step-3.webp" width="143" height="61" alt="The Download CSV button enabled after reviewing the Etsy Scraper table." loading="lazy">
+            <img src="../assets/etsy-step-3.webp" width="143" height="61" alt="The Download CSV button enabled after reviewing the Etsy Scraper table." data-i18n-alt="etsy.usage.step3.imageAlt" loading="lazy">
           </figure>
         </li>
       </ol>
-      <p class="tip">If the capture has gaps, the button reads <strong>Download partial CSV</strong>. It saves the captured table with those gaps.</p>
+      <p class="tip" data-i18n="etsy.usage.tip">If the capture has gaps, the button reads <strong data-i18n-part="downloadPartialCsv" data-i18n="etsy.control.downloadPartialCsv">Download partial CSV</strong>. It saves the captured table with those gaps.</p>
     </section>
   </main>
 </body>

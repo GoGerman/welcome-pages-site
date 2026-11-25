@@ -4,97 +4,107 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <title>Get started · Remove Blank Pages from PDF</title>
+  <title data-i18n="pdf.title">Get started · Remove Blank Pages from PDF</title>
   <link rel="icon" href="../assets/pdf.png" type="image/png">
   <link rel="stylesheet" href="../assets/welcome.css">
-  <script src="../assets/welcome.js" defer></script>
+  <link rel="stylesheet" href="../assets/locale.css">
+  <script src="../assets/welcome.js" type="module"></script>
   <script src="../assets/confetti.js" defer></script>
 </head>
 <body data-project="pdf">
   <main class="welcome" data-welcome data-mode="pin">
     <header class="product">
       <img src="../assets/pdf.png" alt="" width="48" height="48">
-      <p>Remove Blank Pages from PDF</p>
+      <p data-i18n="pdf.name">Remove Blank Pages from PDF</p>
+      <div class="language-picker" data-language-picker hidden>
+        <span id="language-label" data-i18n="common.language.label">Language</span>
+        <select data-language-select aria-labelledby="language-label">
+          <option value="auto" data-i18n="common.language.auto">Browser default</option>
+        </select>
+      </div>
     </header>
+    <p class="language-status" data-language-status data-i18n="common.language.fallback" role="status" hidden>Some of this guide is shown in English.</p>
 
     <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
       <span class="toolbar-cue" aria-hidden="true"></span>
       <header class="guide-intro">
-        <h1 id="pin-title" tabindex="-1">Welcome to Remove Blank Pages from PDF</h1>
-        <p>Remove blank or unwanted pages and save a separate PDF.</p>
-        <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+        <h1 id="pin-title" tabindex="-1" data-i18n="common.pin.welcome">Welcome to <span data-i18n-part="product" data-i18n="pdf.name">Remove Blank Pages from PDF</span></h1>
+        <p data-i18n="pdf.pin.summary">Remove blank or unwanted pages and save a separate PDF.</p>
+        <a class="mode-switch" href="#usage" data-i18n="common.mode.showUsage">Already pinned? See how to use it.</a>
       </header>
       <ol class="pin-steps" role="list">
         <li>
           <div class="pin-step-copy">
-            <h2>Pin the extension</h2>
-            <p>Click <strong>Extensions</strong> in the Chrome toolbar, then click the <strong>pin</strong> beside Remove Blank Pages from PDF.</p>
+            <h2 data-i18n="common.pin.heading">Pin the extension</h2>
+            <p data-i18n="common.pin.instructions">Click <strong data-i18n-part="extensions" data-i18n="common.chrome.extensions">Extensions</strong> in the Chrome toolbar, then click the <strong data-i18n-part="pin" data-i18n="common.chrome.pin">pin</strong> beside <span data-i18n-part="product" data-i18n="pdf.name">Remove Blank Pages from PDF</span>.</p>
           </div>
           <figure class="pin-photo pin-photo--menu">
-            <img src="../assets/pdf-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside Remove Blank Pages from PDF.">
+            <img src="../assets/pdf-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside Remove Blank Pages from PDF." data-i18n-alt="pdf.pin.menuAlt">
             <span class="pin-marker pin-marker--extensions" aria-hidden="true"></span>
             <span class="pin-marker pin-marker--pin" aria-hidden="true"></span>
           </figure>
         </li>
         <li>
           <div class="pin-step-copy">
-            <h2>Open the extension</h2>
-            <p>Click <strong>Remove Blank Pages from PDF</strong> on your Chrome toolbar to open the PDF editor.</p>
+            <h2 data-i18n="common.pin.openHeading">Open the extension</h2>
+            <p data-i18n="pdf.pin.open">Click <strong data-i18n-part="product" data-i18n="pdf.name">Remove Blank Pages from PDF</strong> on your Chrome toolbar to open the PDF editor.</p>
           </div>
           <figure class="pin-photo pin-photo--pinned">
-            <img src="../assets/pdf-pinned.webp" width="806" height="102" alt="The purple Remove Blank Pages from PDF icon pinned beside Chrome’s Extensions button.">
+            <img src="../assets/pdf-pinned.webp" width="806" height="102" alt="The purple Remove Blank Pages from PDF icon pinned beside Chrome’s Extensions button." data-i18n-alt="pdf.pin.pinnedAlt">
             <span class="pin-marker pin-marker--icon" aria-hidden="true"></span>
           </figure>
         </li>
       </ol>
-      <p class="pin-caption">Chrome screenshots</p>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
+      <p class="pin-caption" data-i18n="common.screenshot.chrome">Chrome screenshots</p>
     </section>
 
     <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
-      <h1 id="usage-title" tabindex="-1">Remove blank pages from your first PDF</h1>
-      <a class="mode-switch" href="#pin">Show how to pin it</a>
+      <h1 id="usage-title" tabindex="-1" data-i18n="pdf.usage.heading">Remove blank pages from your first PDF</h1>
+      <a class="mode-switch" href="#pin" data-i18n="common.mode.showPin">Show how to pin it</a>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
       <ol class="steps">
         <li>
           <div class="step-copy">
-            <h2>Open the editor</h2>
-            <p>Click <strong>Remove Blank Pages from PDF</strong> on Chrome’s toolbar or choose it from the <strong>Extensions</strong> menu.</p>
+            <h2 data-i18n="pdf.usage.step1.title">Open the editor</h2>
+            <p data-i18n="pdf.usage.step1.body">Click <strong data-i18n-part="product" data-i18n="pdf.name">Remove Blank Pages from PDF</strong> on Chrome’s toolbar or choose it from the <strong data-i18n-part="extensions" data-i18n="common.chrome.extensions">Extensions</strong> menu.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/pdf-step-1.webp" width="347" height="37" alt="The Remove Blank Pages from PDF icon on the Chrome toolbar." loading="lazy">
+            <img src="../assets/pdf-step-1.webp" width="347" height="37" alt="The Remove Blank Pages from PDF icon on the Chrome toolbar." data-i18n-alt="pdf.usage.step1.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Choose a PDF</h2>
-            <p>Click <strong>Choose PDF</strong> in the editor and select a file from your device.</p>
+            <h2 data-i18n="pdf.usage.step2.title">Choose a PDF</h2>
+            <p data-i18n="pdf.usage.step2.body">Click <strong data-i18n-part="choosePdf" data-i18n="pdf.control.choosePdf">Choose PDF</strong> in the editor and select a file from your device.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/pdf-step-2.webp" width="360" height="109" alt="The PDF editor’s file selection screen with the Choose PDF button." loading="lazy">
+            <img src="../assets/pdf-step-2.webp" width="360" height="109" alt="The PDF editor’s file selection screen with the Choose PDF button." data-i18n-alt="pdf.usage.step2.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Mark pages and review what stays</h2>
-            <p>Check the box on each blank or unwanted page. Click <strong>Review remaining pages</strong> to check which pages will stay and in what order.</p>
+            <h2 data-i18n="pdf.usage.step3.title">Mark pages and review what stays</h2>
+            <p data-i18n="pdf.usage.step3.body">Check the box on each blank or unwanted page. Click <strong data-i18n-part="reviewPages" data-i18n="pdf.control.reviewPages">Review remaining pages</strong> to check which pages will stay and in what order.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/pdf-step-3.webp" width="383" height="487" alt="The blank page selected in the thumbnails and the Review remaining pages button." loading="lazy">
+            <img src="../assets/pdf-step-3.webp" width="383" height="487" alt="The blank page selected in the thumbnails and the Review remaining pages button." data-i18n-alt="pdf.usage.step3.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Save a new copy</h2>
-            <p>Click <strong>Create new copy</strong>, then <strong>Download new copy</strong>. Chrome downloads a separate PDF and keeps your original file.</p>
+            <h2 data-i18n="pdf.usage.step4.title">Save a new copy</h2>
+            <p data-i18n="pdf.usage.step4.body">Click <strong data-i18n-part="createCopy" data-i18n="pdf.control.createCopy">Create new copy</strong>, then <strong data-i18n-part="downloadCopy" data-i18n="pdf.control.downloadCopy">Download new copy</strong>. Chrome downloads a separate PDF and keeps your original file.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/pdf-step-4.webp" width="171" height="131" alt="The review screen’s Create new copy button and the Download new copy button that appears when the copy is ready." loading="lazy">
+            <img src="../assets/pdf-step-4.webp" width="171" height="131" alt="The review screen’s Create new copy button and the Download new copy button that appears when the copy is ready." data-i18n-alt="pdf.usage.step4.imageAlt" loading="lazy">
           </figure>
         </li>
       </ol>
       <aside class="tip">
-        <p>If the editor shows a warning about internal links or bookmarks, read it and select <strong>I understand that internal PDF links and bookmarks will be removed.</strong> before creating the copy.</p>
+        <p data-i18n="pdf.usage.navigation">If the editor shows a warning about internal links or bookmarks, read it and select <strong data-i18n-part="confirmNavigation" data-i18n="pdf.control.confirmNavigation">I understand that internal PDF links and bookmarks will be removed.</strong> before creating the copy.</p>
         <figure class="screenshot">
-          <img src="../assets/pdf-links.webp" width="575" height="125" alt="The PDF editor warning that internal links and bookmarks are removed from the new copy, with the confirmation checkbox." loading="lazy">
+          <img src="../assets/pdf-links.webp" width="575" height="125" alt="The PDF editor warning that internal links and bookmarks are removed from the new copy, with the confirmation checkbox." data-i18n-alt="pdf.usage.navigationAlt" loading="lazy">
         </figure>
       </aside>
     </section>

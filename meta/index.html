@@ -4,86 +4,96 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <title>Get started · Meta Tag Analyzer</title>
+  <title data-i18n="meta.title">Get started · Meta Tag Analyzer</title>
   <link rel="icon" href="../assets/meta.png" type="image/png">
   <link rel="stylesheet" href="../assets/welcome.css">
-  <script src="../assets/welcome.js" defer></script>
+  <link rel="stylesheet" href="../assets/locale.css">
+  <script src="../assets/welcome.js" type="module"></script>
   <script src="../assets/confetti.js" defer></script>
 </head>
 <body data-project="meta">
   <main class="welcome" data-welcome data-mode="pin">
     <header class="product">
       <img src="../assets/meta.png" alt="" width="48" height="48">
-      <p>Meta Tag Analyzer</p>
+      <p data-i18n="meta.name">Meta Tag Analyzer</p>
+      <div class="language-picker" data-language-picker hidden>
+        <span id="language-label" data-i18n="common.language.label">Language</span>
+        <select data-language-select aria-labelledby="language-label">
+          <option value="auto" data-i18n="common.language.auto">Browser default</option>
+        </select>
+      </div>
     </header>
+    <p class="language-status" data-language-status data-i18n="common.language.fallback" role="status" hidden>Some of this guide is shown in English.</p>
 
     <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
       <span class="toolbar-cue" aria-hidden="true"></span>
       <header class="guide-intro">
-        <h1 id="pin-title" tabindex="-1">Welcome to Meta Tag Analyzer</h1>
-        <p>Scan a webpage and see its metadata in one report.</p>
-        <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+        <h1 id="pin-title" tabindex="-1" data-i18n="common.pin.welcome">Welcome to <span data-i18n-part="product" data-i18n="meta.name">Meta Tag Analyzer</span></h1>
+        <p data-i18n="meta.pin.summary">Scan a webpage and see its metadata in one report.</p>
+        <a class="mode-switch" href="#usage" data-i18n="common.mode.showUsage">Already pinned? See how to use it.</a>
       </header>
       <ol class="pin-steps" role="list">
         <li>
           <div class="pin-step-copy">
-            <h2>Pin the extension</h2>
-            <p>Click <strong>Extensions</strong> in the Chrome toolbar, then click the <strong>pin</strong> beside Meta Tag Analyzer.</p>
+            <h2 data-i18n="common.pin.heading">Pin the extension</h2>
+            <p data-i18n="common.pin.instructions">Click <strong data-i18n-part="extensions" data-i18n="common.chrome.extensions">Extensions</strong> in the Chrome toolbar, then click the <strong data-i18n-part="pin" data-i18n="common.chrome.pin">pin</strong> beside <span data-i18n-part="product" data-i18n="meta.name">Meta Tag Analyzer</span>.</p>
           </div>
           <figure class="pin-photo pin-photo--menu">
-            <img src="../assets/meta-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside Meta Tag Analyzer.">
+            <img src="../assets/meta-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside Meta Tag Analyzer." data-i18n-alt="meta.pin.menuAlt">
             <span class="pin-marker pin-marker--extensions" aria-hidden="true"></span>
             <span class="pin-marker pin-marker--pin" aria-hidden="true"></span>
           </figure>
         </li>
         <li>
           <div class="pin-step-copy">
-            <h2>Open the extension</h2>
-            <p>Open the page you want to inspect, then click <strong>Meta Tag Analyzer</strong> on your Chrome toolbar.</p>
+            <h2 data-i18n="common.pin.openHeading">Open the extension</h2>
+            <p data-i18n="meta.pin.open">Open the page you want to inspect, then click <strong data-i18n-part="product" data-i18n="meta.name">Meta Tag Analyzer</strong> on your Chrome toolbar.</p>
           </div>
           <figure class="pin-photo pin-photo--pinned">
-            <img src="../assets/meta-pinned.webp" width="806" height="102" alt="The blue Meta Tag Analyzer icon pinned beside Chrome’s Extensions button.">
+            <img src="../assets/meta-pinned.webp" width="806" height="102" alt="The blue Meta Tag Analyzer icon pinned beside Chrome’s Extensions button." data-i18n-alt="meta.pin.pinnedAlt">
             <span class="pin-marker pin-marker--icon" aria-hidden="true"></span>
           </figure>
         </li>
       </ol>
-      <p class="pin-caption">Chrome screenshots</p>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
+      <p class="pin-caption" data-i18n="common.screenshot.chrome">Chrome screenshots</p>
     </section>
 
     <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
-      <h1 id="usage-title" tabindex="-1">Inspect your first page</h1>
-      <a class="mode-switch" href="#pin">Show how to pin it</a>
+      <h1 id="usage-title" tabindex="-1" data-i18n="meta.usage.heading">Inspect your first page</h1>
+      <a class="mode-switch" href="#pin" data-i18n="common.mode.showPin">Show how to pin it</a>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
       <ol class="steps">
         <li>
           <div class="step-copy">
-            <h2>Open the analyzer</h2>
-            <p>Open the page you want to check and let it finish loading. Click <strong>Meta Tag Analyzer</strong> on the toolbar or in Chrome’s Extensions menu.</p>
-            <p><a class="example-link" href="https://developer.chrome.com/docs/extensions/" target="_blank" rel="noopener noreferrer">Try the Chrome extensions guide</a></p>
+            <h2 data-i18n="meta.usage.step1.title">Open the analyzer</h2>
+            <p data-i18n="meta.usage.step1.body">Open the page you want to check and let it finish loading. Click <strong data-i18n-part="product" data-i18n="meta.name">Meta Tag Analyzer</strong> on the toolbar or in Chrome’s Extensions menu.</p>
+            <p><a class="example-link" href="https://developer.chrome.com/docs/extensions/" target="_blank" rel="noopener noreferrer" data-i18n="meta.usage.example">Try the Chrome extensions guide</a></p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/meta-step-1.webp" width="466" height="45" alt="The Chrome extensions guide open with the Meta Tag Analyzer icon on the toolbar." loading="lazy">
+            <img src="../assets/meta-step-1.webp" width="466" height="45" alt="The Chrome extensions guide open with the Meta Tag Analyzer icon on the toolbar." data-i18n-alt="meta.usage.step1.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Scan the source page</h2>
-            <p>In the Meta Tag Analyzer tab that opens, click <strong>Scan page</strong>.</p>
+            <h2 data-i18n="meta.usage.step2.title">Scan the source page</h2>
+            <p data-i18n="meta.usage.step2.body">In the <span data-i18n-part="product" data-i18n="meta.name">Meta Tag Analyzer</span> tab that opens, click <strong data-i18n-part="scanPage" data-i18n="meta.control.scanPage">Scan page</strong>.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/meta-step-2.webp" width="475" height="130" alt="The Meta Tag Analyzer workspace showing the selected source URL and the Scan page button." loading="lazy">
+            <img src="../assets/meta-step-2.webp" width="475" height="130" alt="The Meta Tag Analyzer workspace showing the selected source URL and the Scan page button." data-i18n-alt="meta.usage.step2.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Read the report</h2>
-            <p>Check the source URL at the top. Review the <strong>counts and values</strong> for the page title, description, and other metadata.</p>
+            <h2 data-i18n="meta.usage.step3.title">Read the report</h2>
+            <p data-i18n="meta.usage.step3.body">Check the source URL at the top. Review the <strong data-i18n-part="counts" data-i18n="meta.usage.countsAndValues">counts and values</strong> for the page title, description, and other metadata.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/meta-step-3.webp" width="816" height="660" alt="A completed Meta Tag Analyzer report with the Chrome extensions guide as its source and the detected metadata in a table." loading="lazy">
+            <img src="../assets/meta-step-3.webp" width="816" height="660" alt="A completed Meta Tag Analyzer report with the Chrome extensions guide as its source and the detected metadata in a table." data-i18n-alt="meta.usage.step3.imageAlt" loading="lazy">
           </figure>
         </li>
       </ol>
-      <p class="tip">Use <strong>Refresh report</strong> after editing the source. To save the report, choose <strong>Download JSON</strong> or <strong>Download text</strong>.</p>
+      <p class="tip" data-i18n="meta.usage.tip">Use <strong data-i18n-part="refreshReport" data-i18n="meta.control.refreshReport">Refresh report</strong> after editing the source. To save the report, choose <strong data-i18n-part="downloadJson" data-i18n="meta.control.downloadJson">Download JSON</strong> or <strong data-i18n-part="downloadText" data-i18n="meta.control.downloadText">Download text</strong>.</p>
     </section>
   </main>
 </body>

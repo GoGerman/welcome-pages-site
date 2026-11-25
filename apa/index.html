@@ -4,95 +4,105 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <title>Get started · APA Website Citation Generator</title>
+  <title data-i18n="apa.title">Get started · APA Website Citation Generator</title>
   <link rel="icon" href="../assets/apa.png" type="image/png">
   <link rel="stylesheet" href="../assets/welcome.css">
-  <script src="../assets/welcome.js" defer></script>
+  <link rel="stylesheet" href="../assets/locale.css">
+  <script src="../assets/welcome.js" type="module"></script>
   <script src="../assets/confetti.js" defer></script>
 </head>
 <body data-project="apa">
   <main class="welcome" data-welcome data-mode="pin">
     <header class="product">
       <img src="../assets/apa.png" alt="" width="48" height="48">
-      <p>APA Website Citation Generator</p>
+      <p data-i18n="apa.name">APA Website Citation Generator</p>
+      <div class="language-picker" data-language-picker hidden>
+        <span id="language-label" data-i18n="common.language.label">Language</span>
+        <select data-language-select aria-labelledby="language-label">
+          <option value="auto" data-i18n="common.language.auto">Browser default</option>
+        </select>
+      </div>
     </header>
+    <p class="language-status" data-language-status data-i18n="common.language.fallback" role="status" hidden>Some of this guide is shown in English.</p>
 
     <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
       <span class="toolbar-cue" aria-hidden="true"></span>
       <header class="guide-intro">
-        <h1 id="pin-title" tabindex="-1">Welcome to APA Website Citation Generator</h1>
-        <p>Turn a web article into an APA 7 reference.</p>
-        <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+        <h1 id="pin-title" tabindex="-1" data-i18n="common.pin.welcome">Welcome to <span data-i18n-part="product" data-i18n="apa.name">APA Website Citation Generator</span></h1>
+        <p data-i18n="apa.pin.summary">Turn a web article into an APA 7 reference.</p>
+        <a class="mode-switch" href="#usage" data-i18n="common.mode.showUsage">Already pinned? See how to use it.</a>
       </header>
       <ol class="pin-steps" role="list">
         <li>
           <div class="pin-step-copy">
-            <h2>Pin the extension</h2>
-            <p>Click <strong>Extensions</strong> in the Chrome toolbar, then click the <strong>pin</strong> beside APA Website Citation Generator.</p>
+            <h2 data-i18n="common.pin.heading">Pin the extension</h2>
+            <p data-i18n="common.pin.instructions">Click <strong data-i18n-part="extensions" data-i18n="common.chrome.extensions">Extensions</strong> in the Chrome toolbar, then click the <strong data-i18n-part="pin" data-i18n="common.chrome.pin">pin</strong> beside <span data-i18n-part="product" data-i18n="apa.name">APA Website Citation Generator</span>.</p>
           </div>
           <figure class="pin-photo pin-photo--menu">
-            <img src="../assets/apa-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside APA Website Citation Generator.">
+            <img src="../assets/apa-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside APA Website Citation Generator." data-i18n-alt="apa.pin.menuAlt">
             <span class="pin-marker pin-marker--extensions" aria-hidden="true"></span>
             <span class="pin-marker pin-marker--pin" aria-hidden="true"></span>
           </figure>
         </li>
         <li>
           <div class="pin-step-copy">
-            <h2>Open the extension</h2>
-            <p>Open the article you want to cite, then click <strong>APA Website Citation Generator</strong> on your Chrome toolbar.</p>
+            <h2 data-i18n="common.pin.openHeading">Open the extension</h2>
+            <p data-i18n="apa.pin.open">Open the article you want to cite, then click <strong data-i18n-part="product" data-i18n="apa.name">APA Website Citation Generator</strong> on your Chrome toolbar.</p>
           </div>
           <figure class="pin-photo pin-photo--pinned">
-            <img src="../assets/apa-pinned.webp" width="806" height="102" alt="The green APA Website Citation Generator icon pinned beside Chrome’s Extensions button.">
+            <img src="../assets/apa-pinned.webp" width="806" height="102" alt="The green APA Website Citation Generator icon pinned beside Chrome’s Extensions button." data-i18n-alt="apa.pin.pinnedAlt">
             <span class="pin-marker pin-marker--icon" aria-hidden="true"></span>
           </figure>
         </li>
       </ol>
-      <p class="pin-caption">Chrome screenshots</p>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
+      <p class="pin-caption" data-i18n="common.screenshot.chrome">Chrome screenshots</p>
     </section>
 
     <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
-      <h1 id="usage-title" tabindex="-1">Create your first APA 7 reference</h1>
-      <a class="mode-switch" href="#pin">Show how to pin it</a>
+      <h1 id="usage-title" tabindex="-1" data-i18n="apa.usage.heading">Create your first APA 7 reference</h1>
+      <a class="mode-switch" href="#pin" data-i18n="common.mode.showPin">Show how to pin it</a>
+      <p class="illustration-note" data-illustration-note data-i18n="common.screenshot.illustration" hidden>These screenshots illustrate the English interface. Follow the written steps in your language.</p>
       <ol class="steps">
         <li>
           <div class="step-copy">
-            <h2>Open the extension from the article</h2>
-            <p>With the article open in Chrome, click <strong>APA Website Citation Generator</strong> on the toolbar or in Chrome’s Extensions menu.</p>
-            <p><a class="example-link" href="https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/" target="_blank" rel="noopener noreferrer">Try the NASA article</a></p>
+            <h2 data-i18n="apa.usage.step1.title">Open the extension from the article</h2>
+            <p data-i18n="apa.usage.step1.body">With the article open in Chrome, click <strong data-i18n-part="product" data-i18n="apa.name">APA Website Citation Generator</strong> on the toolbar or in Chrome’s Extensions menu.</p>
+            <p><a class="example-link" href="https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/" target="_blank" rel="noopener noreferrer" data-i18n="apa.usage.example">Try the NASA article</a></p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/apa-step-1.webp" width="466" height="45" alt="A NASA article open in Chrome with the APA Website Citation Generator icon on the toolbar." loading="lazy">
+            <img src="../assets/apa-step-1.webp" width="466" height="45" alt="A NASA article open in Chrome with the APA Website Citation Generator icon on the toolbar." data-i18n-alt="apa.usage.step1.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Read the article details</h2>
-            <p>In the workspace that opens, click <strong>Read page details</strong>. Compare the suggested author, date, title, website name, and URL with the article.</p>
+            <h2 data-i18n="apa.usage.step2.title">Read the article details</h2>
+            <p data-i18n="apa.usage.step2.body">In the workspace that opens, click <strong data-i18n-part="readPage" data-i18n="apa.control.readPage">Read page details</strong>. Compare the suggested author, date, title, website name, and URL with the article.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/apa-step-2.webp" width="470" height="440" alt="The Read page details button and the form with the NASA article date, title and website name filled in." loading="lazy">
+            <img src="../assets/apa-step-2.webp" width="470" height="440" alt="The Read page details button and the form with the NASA article date, title and website name filled in." data-i18n-alt="apa.usage.step2.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Check the fields and create the reference</h2>
-            <p>Correct any fields that need editing. If the author appears as a single suggestion, fill in <strong>Family name</strong> and <strong>Given names</strong>. Select <strong>I checked the source details.</strong> Then click <strong>Create reference</strong>.</p>
+            <h2 data-i18n="apa.usage.step3.title">Check the fields and create the reference</h2>
+            <p data-i18n="apa.usage.step3.body">Correct any fields that need editing. If the author appears as a single suggestion, fill in <strong data-i18n-part="familyName" data-i18n="apa.control.familyName">Family name</strong> and <strong data-i18n-part="givenNames" data-i18n="apa.control.givenNames">Given names</strong>. Select <strong data-i18n-part="confirmSource" data-i18n="apa.control.confirmSource">I checked the source details.</strong> Then click <strong data-i18n-part="createReference" data-i18n="apa.control.createReference">Create reference</strong>.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/apa-step-3.webp" width="560" height="113" alt="The source details confirmation checkbox and the Create reference button below the reference form." loading="lazy">
+            <img src="../assets/apa-step-3.webp" width="560" height="113" alt="The source details confirmation checkbox and the Create reference button below the reference form." data-i18n-alt="apa.usage.step3.imageAlt" loading="lazy">
           </figure>
         </li>
         <li>
           <div class="step-copy">
-            <h2>Copy the APA 7 reference</h2>
-            <p>Click <strong>Copy reference</strong> to copy the reference to your clipboard.</p>
+            <h2 data-i18n="apa.usage.step4.title">Copy the APA 7 reference</h2>
+            <p data-i18n="apa.usage.step4.body">Click <strong data-i18n-part="copyReference" data-i18n="apa.control.copyReference">Copy reference</strong> to copy the reference to your clipboard.</p>
           </div>
           <figure class="screenshot">
-            <img src="../assets/apa-step-4.webp" width="376" height="402" alt="The generated APA 7 reference for the NASA article and its Copy reference button." loading="lazy">
+            <img src="../assets/apa-step-4.webp" width="814" height="295" alt="The generated APA 7 reference for the NASA article and its Copy reference button." data-i18n-alt="apa.usage.step4.imageAlt" loading="lazy">
           </figure>
         </li>
       </ol>
-      <p class="tip">After pasting the reference, apply italics where needed and add a hanging indent.</p>
+      <p class="tip" data-i18n="apa.usage.tip">After pasting the reference, apply italics where needed and add a hanging indent.</p>
     </section>
   </main>
 </body>

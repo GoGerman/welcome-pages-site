@@ -206,14 +206,14 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 
 .pin-steps > li { min-width: 0; counter-increment: pin-step; }
 
-.pin-step-copy { margin-bottom: 13px; padding-left: 36px; position: relative; }
+.pin-step-copy { margin-bottom: 13px; padding-inline-start: 36px; position: relative; }
 .pin-step-copy p { color: var(--muted); }
 
 .pin-step-copy::before {
   content: counter(pin-step);
   position: absolute;
   top: 0;
-  left: 0;
+  inset-inline-start: 0;
   width: 25px;
   height: 25px;
   display: grid;
@@ -293,7 +293,7 @@ figcaption { margin-top: 8px; color: var(--muted); font-size: 0.875rem; line-hei
   counter-increment: step;
 }
 
-.step-copy { position: relative; padding-left: 38px; color: var(--muted); }
+.step-copy { position: relative; padding-inline-start: 38px; color: var(--muted); }
 
 .step-copy::before {
   content: counter(step);
@@ -301,7 +301,7 @@ figcaption { margin-top: 8px; color: var(--muted); font-size: 0.875rem; line-hei
   place-items: center;
   position: absolute;
   top: 0;
-  left: 0;
+  inset-inline-start: 0;
   width: 27px;
   height: 27px;
   border-radius: 50%;
@@ -329,6 +329,6 @@ strong { color: var(--ink); }
 
 @media (max-width: 680px) {
   .steps > li { grid-template-columns: minmax(0, 1fr); }
-  .step-copy { padding-left: 35px; }
+  .step-copy { padding-inline-start: 35px; }
   .pin-marker { border-width: 2px; }
 }
