@@ -8,6 +8,7 @@
   <link rel="icon" href="../assets/meta.png" type="image/png">
   <link rel="stylesheet" href="../assets/welcome.css">
   <script src="../assets/welcome.js" defer></script>
+  <script src="../assets/confetti.js" defer></script>
 </head>
 <body data-project="meta">
   <main class="welcome" data-welcome data-mode="pin">
@@ -17,20 +18,36 @@
     </header>
 
     <section id="pin" class="mode pin-mode" data-guide="pin" aria-labelledby="pin-title">
-      <div class="pin-layout">
-        <div class="pin-copy">
-          <h1 id="pin-title" tabindex="-1">Pin it to your toolbar</h1>
-          <ol>
-            <li>Click <strong>Extensions</strong>, the puzzle piece beside Chrome’s address bar.</li>
-            <li>Click the <strong>pin</strong> next to <strong>Meta Tag Analyzer</strong>. Its icon will appear on your toolbar.</li>
-          </ol>
-          <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
-        </div>
-        <figure class="screenshot">
-          <img src="../assets/meta-pin.webp" width="347" height="277" alt="Chrome’s Extensions menu with the pin beside Meta Tag Analyzer, followed by the toolbar with the pinned icon.">
-          <figcaption>The Extensions menu above and the toolbar after pinning below.</figcaption>
-        </figure>
-      </div>
+      <span class="toolbar-cue" aria-hidden="true"></span>
+      <header class="guide-intro">
+        <h1 id="pin-title" tabindex="-1">Welcome to Meta Tag Analyzer</h1>
+        <p>Scan a webpage and see its metadata in one report.</p>
+        <a class="mode-switch" href="#usage">Already pinned? See how to use it.</a>
+      </header>
+      <ol class="pin-steps" role="list">
+        <li>
+          <div class="pin-step-copy">
+            <h2>Pin the extension</h2>
+            <p>Click <strong>Extensions</strong> in the Chrome toolbar, then click the <strong>pin</strong> beside Meta Tag Analyzer.</p>
+          </div>
+          <figure class="pin-photo pin-photo--menu">
+            <img src="../assets/meta-pin.webp" width="688" height="508" alt="Chrome’s Extensions menu open, with the puzzle-piece button and the pin beside Meta Tag Analyzer.">
+            <span class="pin-marker pin-marker--extensions" aria-hidden="true"></span>
+            <span class="pin-marker pin-marker--pin" aria-hidden="true"></span>
+          </figure>
+        </li>
+        <li>
+          <div class="pin-step-copy">
+            <h2>Open the extension</h2>
+            <p>Open the page you want to inspect, then click <strong>Meta Tag Analyzer</strong> on your Chrome toolbar.</p>
+          </div>
+          <figure class="pin-photo pin-photo--pinned">
+            <img src="../assets/meta-pinned.webp" width="806" height="102" alt="The blue Meta Tag Analyzer icon pinned beside Chrome’s Extensions button.">
+            <span class="pin-marker pin-marker--icon" aria-hidden="true"></span>
+          </figure>
+        </li>
+      </ol>
+      <p class="pin-caption">Chrome screenshots</p>
     </section>
 
     <section id="usage" class="mode usage-mode" data-guide="usage" aria-labelledby="usage-title">
