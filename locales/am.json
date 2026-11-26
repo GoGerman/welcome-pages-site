@@ -39,6 +39,7 @@
   "common.pin.instructions": "በChrome መሣሪያ አሞሌ {extensions} ይጫኑ። ከዚያ ከ{product} ጎን ያለውን {pin} ይጫኑ።",
   "common.pin.openHeading": "ቅጥያውን ይክፈቱ",
   "common.pin.welcome": "እንኳን ወደ {product} በደህና መጡ",
+  "common.privacy.policy": "የግላዊነት ፖሊሲ",
   "common.screenshot.chrome": "የChrome ማያ ገጽ ምስሎች",
   "common.screenshot.illustration": "ምስሎቹ የእንግሊዝኛውን መገናኛ ያሳያሉ። በቋንቋዎ የተጻፉትን ደረጃዎች ይከተሉ።",
   "etsy.control.collectCards": "የተጫኑ ካርዶችን ሰብስቡ",

@@ -39,6 +39,7 @@
   "common.pin.instructions": "Click {extensions} in the Chrome toolbar, then click the {pin} beside {product}.",
   "common.pin.openHeading": "Open the extension",
   "common.pin.welcome": "Welcome to {product}",
+  "common.privacy.policy": "Privacy Policy",
   "common.screenshot.chrome": "Chrome screenshots",
   "common.screenshot.illustration": "These screenshots illustrate the English interface. Follow the written steps in your language.",
   "etsy.control.collectCards": "Collect loaded cards",

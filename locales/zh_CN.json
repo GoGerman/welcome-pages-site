@@ -39,6 +39,7 @@
   "common.pin.instructions": "点击 Chrome 工具栏中的“{extensions}”，然后点击 {product} 旁的{pin}。",
   "common.pin.openHeading": "打开扩展程序",
   "common.pin.welcome": "欢迎使用 {product}",
+  "common.privacy.policy": "隐私政策",
   "common.screenshot.chrome": "Chrome 截图",
   "common.screenshot.illustration": "这些截图演示英文界面。请按所选语言的文字步骤操作。",
   "etsy.control.collectCards": "采集已加载的卡片",

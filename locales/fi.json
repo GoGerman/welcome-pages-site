@@ -39,6 +39,7 @@
   "common.pin.instructions": "Napsauta Chromen työkalupalkissa kohtaa ”{extensions}” ja sen jälkeen {product} -nimen vieressä olevaa kuvaketta ({pin}).",
   "common.pin.openHeading": "Avaa laajennus",
   "common.pin.welcome": "Tervetuloa käyttämään laajennusta {product}",
+  "common.privacy.policy": "Tietosuojakäytäntö",
   "common.screenshot.chrome": "Chromen kuvakaappaukset",
   "common.screenshot.illustration": "Kuvakaappaukset esittävät englanninkielisen käyttöliittymän. Noudata omalla kielelläsi kirjoitettuja ohjeita.",
   "etsy.control.collectCards": "Kerää ladatut tuotekortit",

@@ -39,6 +39,7 @@
   "common.pin.instructions": "Kliknij menu {extensions} na pasku Chrome, a następnie przycisk {pin} obok {product}.",
   "common.pin.openHeading": "Otwórz rozszerzenie",
   "common.pin.welcome": "Witamy w {product}",
+  "common.privacy.policy": "Polityka prywatności",
   "common.screenshot.chrome": "Zrzuty ekranu z Chrome",
   "common.screenshot.illustration": "Te zrzuty ekranu przedstawiają interfejs angielski. Wykonuj opisane kroki w swoim języku.",
   "etsy.control.collectCards": "Zbierz wczytane karty ofert",

@@ -39,6 +39,7 @@
   "common.pin.instructions": "按一下 Chrome 工具列中的「{extensions}」，然後按一下 {product} 旁的{pin}。",
   "common.pin.openHeading": "開啟擴充功能",
   "common.pin.welcome": "歡迎使用 {product}",
+  "common.privacy.policy": "隱私權政策",
   "common.screenshot.chrome": "Chrome 螢幕截圖",
   "common.screenshot.illustration": "螢幕截圖為英文介面的操作示意。請依所選語言的文字步驟操作。",
   "etsy.control.collectCards": "擷取已載入的商品卡片",

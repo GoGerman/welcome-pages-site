@@ -39,6 +39,7 @@
   "common.pin.instructions": "Klõpsa Chrome’i tööriistaribal {extensions} ja seejärel laienduse {product} kõrval olevat {pin}.",
   "common.pin.openHeading": "Ava laiendus",
   "common.pin.welcome": "Tere tulemast! {product}",
+  "common.privacy.policy": "Privaatsuspoliitika",
   "common.screenshot.chrome": "Chrome’i ekraanipildid",
   "common.screenshot.illustration": "Ekraanipiltidel on ingliskeelne kasutajaliides. Järgi kirjalikke juhiseid oma keeles.",
   "etsy.control.collectCards": "Kogu laaditud kaardid",

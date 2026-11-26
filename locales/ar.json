@@ -39,6 +39,7 @@
   "common.pin.instructions": "انقر على {extensions} في شريط أدوات Chrome، ثم على {pin} بجانب {product}.",
   "common.pin.openHeading": "افتح الإضافة",
   "common.pin.welcome": "مرحبًا بك في {product}",
+  "common.privacy.policy": "سياسة الخصوصية",
   "common.screenshot.chrome": "لقطات من Chrome",
   "common.screenshot.illustration": "توضح هذه اللقطات الواجهة باللغة الإنجليزية. اتبع الخطوات المكتوبة بلغتك.",
   "etsy.control.collectCards": "اجمع البطاقات المحمّلة",

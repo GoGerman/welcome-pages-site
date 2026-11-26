@@ -39,6 +39,7 @@
   "common.pin.instructions": "Fes clic a «{extensions}» a la barra d’eines de Chrome i, després, a la {pin} del costat de {product}.",
   "common.pin.openHeading": "Obre l’extensió",
   "common.pin.welcome": "Et donem la benvinguda a {product}",
+  "common.privacy.policy": "Política de privadesa",
   "common.screenshot.chrome": "Captures de pantalla de Chrome",
   "common.screenshot.illustration": "Les captures il·lustren la interfície en anglès. Segueix les instruccions escrites en el teu idioma.",
   "etsy.control.collectCards": "Recull les fitxes carregades",

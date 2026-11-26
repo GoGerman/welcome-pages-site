@@ -39,6 +39,7 @@
   "common.pin.instructions": "Натисніть {extensions} на панелі Chrome, потім {pin} поруч із {product}.",
   "common.pin.openHeading": "Відкрийте розширення",
   "common.pin.welcome": "Вітаємо в {product}",
+  "common.privacy.policy": "Політика конфіденційності",
   "common.screenshot.chrome": "Знімки екрана Chrome",
   "common.screenshot.illustration": "На знімках показано англійський інтерфейс. Дотримуйтеся письмових кроків своєю мовою.",
   "etsy.control.collectCards": "Зібрати завантажені картки",

@@ -39,6 +39,7 @@
   "common.pin.instructions": "Натиснете {extensions} в лентата с инструменти на Chrome, след което натиснете {pin} до {product}.",
   "common.pin.openHeading": "Отворете разширението",
   "common.pin.welcome": "Добре дошли в {product}",
+  "common.privacy.policy": "Политика за поверителност",
   "common.screenshot.chrome": "Снимки на екрана на Chrome",
   "common.screenshot.illustration": "Снимките показват интерфейса на английски. Следвайте указанията на своя език.",
   "etsy.control.collectCards": "Събиране на заредените карти",

@@ -39,6 +39,7 @@
   "common.pin.instructions": "Klicken Sie in der Chrome-Symbolleiste auf „{extensions}“ und dann auf die {pin} neben {product}.",
   "common.pin.openHeading": "Erweiterung öffnen",
   "common.pin.welcome": "Willkommen bei {product}",
+  "common.privacy.policy": "Datenschutzerklärung",
   "common.screenshot.chrome": "Chrome-Screenshots",
   "common.screenshot.illustration": "Die Screenshots zeigen die englische Benutzeroberfläche. Folgen Sie den Schritten in Ihrer Sprache.",
   "etsy.control.collectCards": "Geladene Angebotskarten erfassen",

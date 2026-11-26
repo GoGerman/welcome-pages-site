@@ -39,6 +39,7 @@
   "common.pin.instructions": "Chrome 도구 모음에서 {extensions}을(를) 클릭한 다음 {product} 옆의 {pin}을(를) 클릭하세요.",
   "common.pin.openHeading": "확장 프로그램 열기",
   "common.pin.welcome": "{product}에 오신 것을 환영합니다",
+  "common.privacy.policy": "개인정보처리방침",
   "common.screenshot.chrome": "Chrome 화면 캡처",
   "common.screenshot.illustration": "화면 캡처는 영어 인터페이스입니다. 선택한 언어의 안내를 따라 하세요.",
   "etsy.control.collectCards": "로드된 카드 수집",

@@ -39,6 +39,7 @@
   "common.pin.instructions": "Apasă {extensions} în bara de instrumente Chrome, apoi apasă pe {pin} lângă {product}.",
   "common.pin.openHeading": "Deschide extensia",
   "common.pin.welcome": "Bun venit la {product}",
+  "common.privacy.policy": "Politica de confidențialitate",
   "common.screenshot.chrome": "Capturi de ecran din Chrome",
   "common.screenshot.illustration": "Capturile de ecran ilustrează interfața în engleză. Urmează instrucțiunile scrise în limba ta.",
   "etsy.control.collectCards": "Colectează cardurile încărcate",

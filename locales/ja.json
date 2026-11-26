@@ -39,6 +39,7 @@
   "common.pin.instructions": "Chromeのツールバーで{extensions}をクリックし、{product}の横にある{pin}をクリックします。",
   "common.pin.openHeading": "拡張機能を開く",
   "common.pin.welcome": "{product}へようこそ",
+  "common.privacy.policy": "プライバシーポリシー",
   "common.screenshot.chrome": "Chromeの画面例",
   "common.screenshot.illustration": "スクリーンショットは英語の画面です。操作の説明は選択した言語で確認できます。",
   "etsy.control.collectCards": "表示済みの商品カードを取得",

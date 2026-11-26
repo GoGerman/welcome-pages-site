@@ -39,6 +39,7 @@
   "common.pin.instructions": "Klicka på ”{extensions}” i Chromes verktygsfält och sedan på ikonen med en {pin} bredvid {product}.",
   "common.pin.openHeading": "Öppna tillägget",
   "common.pin.welcome": "Välkommen till {product}",
+  "common.privacy.policy": "Integritetspolicy",
   "common.screenshot.chrome": "Skärmbilder från Chrome",
   "common.screenshot.illustration": "Skärmbilderna visar det engelska gränssnittet. Följ de skriftliga stegen på ditt språk.",
   "etsy.control.collectCards": "Samla in inlästa produktkort",

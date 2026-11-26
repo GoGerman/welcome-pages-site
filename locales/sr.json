@@ -39,6 +39,7 @@
   "common.pin.instructions": "На Chrome траци са алаткама кликните на {extensions}, а затим на {pin} поред додатка {product}.",
   "common.pin.openHeading": "Отворите додатак",
   "common.pin.welcome": "Добро дошли у {product}",
+  "common.privacy.policy": "Политика приватности",
   "common.screenshot.chrome": "Снимци екрана из Chrome-а",
   "common.screenshot.illustration": "Снимци екрана приказују интерфејс на енглеском. Пратите писана упутства на свом језику.",
   "etsy.control.collectCards": "Прикупи учитане картице",

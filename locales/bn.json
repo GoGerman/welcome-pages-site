@@ -39,6 +39,7 @@
   "common.pin.instructions": "Chrome টুলবারে {extensions} ক্লিক করে {product}-এর পাশের {pin}-এ ক্লিক করুন।",
   "common.pin.openHeading": "এক্সটেনশন খুলুন",
   "common.pin.welcome": "{product}-এ স্বাগতম",
+  "common.privacy.policy": "গোপনীয়তা নীতি",
   "common.screenshot.chrome": "Chrome-এর স্ক্রিনশট",
   "common.screenshot.illustration": "স্ক্রিনশটে ইংরেজি ইন্টারফেস দেখানো হয়েছে। আপনার ভাষায় লেখা ধাপগুলো অনুসরণ করুন।",
   "etsy.control.collectCards": "লোড হওয়া কার্ড সংগ্রহ করুন",

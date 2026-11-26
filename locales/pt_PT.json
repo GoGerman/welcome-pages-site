@@ -39,6 +39,7 @@
   "common.pin.instructions": "Clique em «{extensions}» na barra de ferramentas do Chrome e depois no {pin} ao lado de {product}.",
   "common.pin.openHeading": "Abrir a extensão",
   "common.pin.welcome": "Boas-vindas a {product}",
+  "common.privacy.policy": "Política de Privacidade",
   "common.screenshot.chrome": "Capturas de ecrã do Chrome",
   "common.screenshot.illustration": "As capturas ilustram a interface em inglês. Siga os passos escritos no seu idioma.",
   "etsy.control.collectCards": "Recolher cartões carregados",

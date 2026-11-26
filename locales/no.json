@@ -39,6 +39,7 @@
   "common.pin.instructions": "Klikk på «{extensions}» i Chrome-verktøylinjen og deretter på symbolet for {pin} ved siden av {product}.",
   "common.pin.openHeading": "Åpne utvidelsen",
   "common.pin.welcome": "Velkommen til {product}",
+  "common.privacy.policy": "Personvernerklæring",
   "common.screenshot.chrome": "Skjermbilder fra Chrome",
   "common.screenshot.illustration": "Skjermbildene viser det engelske grensesnittet. Følg de skriftlige trinnene på ditt språk.",
   "etsy.control.collectCards": "Samle inn lastede annonsekort",

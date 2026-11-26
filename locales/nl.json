@@ -39,6 +39,7 @@
   "common.pin.instructions": "Klik in de Chrome-werkbalk op ‘{extensions}’ en vervolgens op de {pin} naast {product}.",
   "common.pin.openHeading": "De extensie openen",
   "common.pin.welcome": "Welkom bij {product}",
+  "common.privacy.policy": "Privacybeleid",
   "common.screenshot.chrome": "Schermafbeeldingen van Chrome",
   "common.screenshot.illustration": "De schermafbeeldingen tonen de Engelse interface. Volg de uitgeschreven stappen in je taal.",
   "etsy.control.collectCards": "Geladen kaarten verzamelen",

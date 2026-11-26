@@ -39,6 +39,7 @@
   "common.pin.instructions": "Kliknite na {extensions} na paneli prehliadača Chrome a potom na {pin} vedľa {product}.",
   "common.pin.openHeading": "Otvorte rozšírenie",
   "common.pin.welcome": "Vitajte v {product}",
+  "common.privacy.policy": "Zásady ochrany osobných údajov",
   "common.screenshot.chrome": "Snímky obrazovky prehliadača Chrome",
   "common.screenshot.illustration": "Snímky zobrazujú anglické rozhranie. Riaďte sa písomnými krokmi vo svojom jazyku.",
   "etsy.control.collectCards": "Zachytiť načítané karty",

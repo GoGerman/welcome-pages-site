@@ -71,6 +71,36 @@ body[data-project="pdf"] {
 
 .welcome { max-width: 1050px; margin-inline: auto; }
 
+.guide-footer {
+  margin-block-start: clamp(24px, 5vw, 48px);
+  padding-block-start: 8px;
+  border-block-start: 1px solid var(--line);
+  font-size: 0.875rem;
+}
+
+.guide-footer a, .policy-back {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 44px;
+}
+
+.privacy-policy { max-width: 720px; }
+.privacy-policy .product { flex-wrap: wrap; }
+.privacy-policy .product p { flex: 1 1 12rem; }
+
+.policy-body {
+  padding-block-start: clamp(28px, 6vw, 64px);
+  overflow-wrap: anywhere;
+}
+
+.policy-updated {
+  margin-block-start: 10px;
+  color: var(--muted);
+}
+
+.policy-body section { margin-block-start: 28px; }
+.policy-body section p + p { margin-block-start: 12px; }
+
 .product {
   display: flex;
   align-items: center;

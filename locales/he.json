@@ -39,6 +39,7 @@
   "common.pin.instructions": "לחצו על {extensions} בסרגל של Chrome ואז על {pin} ליד {product}.",
   "common.pin.openHeading": "פתיחת התוסף",
   "common.pin.welcome": "ברוכים הבאים אל {product}",
+  "common.privacy.policy": "מדיניות פרטיות",
   "common.screenshot.chrome": "צילומי מסך של Chrome",
   "common.screenshot.illustration": "צילומי המסך מציגים את הממשק באנגלית. עקבו אחרי ההוראות הכתובות בשפה שלכם.",
   "etsy.control.collectCards": "איסוף הכרטיסים שנטענו",

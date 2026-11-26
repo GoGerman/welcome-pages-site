@@ -39,6 +39,7 @@
   "common.pin.instructions": "A Chrome eszköztárán kattints ide: {extensions}. Ezután a(z) {product} neve mellett kattints a {pin}.",
   "common.pin.openHeading": "Nyisd meg a bővítményt",
   "common.pin.welcome": "Üdvözlünk! {product}",
+  "common.privacy.policy": "Adatvédelmi tájékoztató",
   "common.screenshot.chrome": "Chrome-képernyőképek",
   "common.screenshot.illustration": "A képernyőképek az angol felületet mutatják. Kövesd a saját nyelveden megadott lépéseket.",
   "etsy.control.collectCards": "Betöltött kártyák gyűjtése",

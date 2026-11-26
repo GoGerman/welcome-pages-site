@@ -39,6 +39,7 @@
   "common.pin.instructions": "روی {extensions} در نوار ابزار Chrome و سپس {pin} کنار {product} کلیک کنید.",
   "common.pin.openHeading": "افزونه را باز کنید",
   "common.pin.welcome": "به {product} خوش آمدید",
+  "common.privacy.policy": "سیاست حفظ حریم خصوصی",
   "common.screenshot.chrome": "تصویرهای صفحهٔ Chrome",
   "common.screenshot.illustration": "این تصویرها رابط انگلیسی را نشان می‌دهند. مراحل نوشته‌شده را به زبان خود دنبال کنید.",
   "etsy.control.collectCards": "گردآوری کارت‌های بارگیری‌شده",

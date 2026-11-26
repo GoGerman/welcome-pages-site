@@ -39,6 +39,7 @@
   "common.pin.instructions": "Нажмите {extensions} на панели инструментов Chrome, затем {pin} рядом с названием «{product}».",
   "common.pin.openHeading": "Откройте расширение",
   "common.pin.welcome": "Добро пожаловать в «{product}»",
+  "common.privacy.policy": "Политика конфиденциальности",
   "common.screenshot.chrome": "Снимки экрана Chrome",
   "common.screenshot.illustration": "На снимках показан интерфейс на английском. Следуйте инструкции на выбранном языке.",
   "etsy.control.collectCards": "Собрать загруженные карточки",
