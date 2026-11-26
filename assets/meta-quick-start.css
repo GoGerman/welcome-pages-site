@@ -100,6 +100,10 @@ body.meta-quick-start {
   text-align: center;
 }
 
+.meta-visual-guide .guide-photo.meta-for-icon figcaption {
+  display: none;
+}
+
 .meta-visual-guide .guide-mark {
   display: none;
   position: absolute;
