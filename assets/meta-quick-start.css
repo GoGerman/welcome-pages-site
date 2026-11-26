@@ -131,7 +131,14 @@ body.meta-quick-start {
 .meta-visual-guide :is([data-shot="pin"], [data-shot="menu"]) .mark-one { display: block; inset: 3% 4% 84% 87%; }
 .meta-visual-guide [data-shot="pin"] .mark-two { display: block; inset: 64.8% 25.5% 25.5% 67.6%; }
 .meta-visual-guide [data-shot="menu"] .mark-two { display: block; inset: 64% 44% 25% 8.8%; }
-.meta-visual-guide [data-shot="pinned"] .mark-one { display: block; inset: 16% 8.6% 24% 85.2%; }
+.meta-visual-guide [data-shot="pinned"] .mark-one {
+  display: block;
+  left: 87.5%;
+  top: 46.1%;
+  inline-size: 5.8%;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+}
 .meta-visual-guide [data-shot="scan"][data-photo-language="ru"] .mark-one { display: block; inset: 47% 68% 13% .8%; }
 .meta-visual-guide [data-shot="scan"][data-photo-language="en"] .mark-one { display: block; inset: 55% 73.7% 7% 1.7%; }
 .meta-visual-guide :is([data-shot="pinned"], [data-shot="scan"]) .guide-mark b { display: none; }
