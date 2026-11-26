@@ -146,35 +146,24 @@ body.meta-quick-start {
 }
 
 .meta-visual-guide .guide-actions [hidden] { display: none; }
-.meta-visual-guide :where(.guide-link) { display: inline-flex; }
-.meta-visual-guide .guide-link {
-  align-items: center;
-  gap: 5px;
-  padding: 7px 0;
-  border: 0;
-  background: none;
-  color: var(--guide-accent);
-  font: inherit;
-  font-size: 14px;
-  font-weight: 620;
-  cursor: pointer;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-align: start;
-}
-
-.meta-visual-guide .guide-example {
-  display: inline-flex;
+.meta-visual-guide :where(.guide-link, .guide-example) { display: inline-flex; }
+.meta-visual-guide .guide-actions :is(.guide-link, .guide-example) {
   align-items: center;
   justify-content: center;
   gap: 9px;
+  max-inline-size: 100%;
   min-block-size: 44px;
+  margin: 0;
   padding: 10px 15px;
+  border: 0;
   border-radius: 9px;
   background: var(--guide-accent);
   color: var(--guide-on-accent);
+  font: inherit;
   font-size: 14px;
   font-weight: 660;
+  cursor: pointer;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -187,7 +176,7 @@ body.meta-quick-start {
 }
 
 @media (pointer: coarse) {
-  .meta-visual-guide :is([data-language-picker] select, .guide-link) { min-block-size: 44px; }
+  .meta-visual-guide [data-language-picker] select { min-block-size: 44px; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -218,16 +207,11 @@ html[lang="ru"] .meta-visual-guide .meta-scan-note { display: none; }
 
 html[lang="ru"] .meta-visual-guide [data-photo-language="ru"] { display: block; }
 
-.meta-visual-guide .guide-actions .mode-switch { margin: 0; min-block-size: 0; }
 .meta-visual-guide .illustration-note { text-align: center; color: var(--guide-text); }
 .meta-visual-guide .language-status { color: var(--guide-text); }
 .meta-visual-guide .guide-intro strong { color: var(--guide-ink); }
 .meta-visual-guide .guide-footer { border-color: var(--guide-line); }
 .meta-visual-guide .guide-footer a { color: var(--guide-accent); }
-
-@media (pointer: coarse) {
-  .meta-visual-guide .guide-actions .mode-switch { min-block-size: 44px; }
-}
 
 @media (prefers-color-scheme: dark) {
   html:has(body.meta-quick-start) { background: #0c1725; color-scheme: dark; }
