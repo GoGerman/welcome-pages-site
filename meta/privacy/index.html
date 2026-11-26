@@ -20,7 +20,7 @@
       <p class="policy-updated">Last updated <time datetime="2026-11-26">November 26, 2026</time></p>
       <section>
         <h2>Page data</h2>
-        <p>When you click the extension icon, Meta Tag Analyzer checks the URL and document type of the selected tab. When you scan or refresh, it reads the document title, meta description, canonical URL, robots directives, and Open Graph values. The report includes the source URL, base URL, and time of the scan.</p>
+        <p>When you click the extension icon, Meta Tag Analyzer checks the URL and document type of the selected tab. When you scan or refresh, it reads the document title, meta description, canonical URL, meta robots directives, and Open Graph values. From version 0.1.5, a scan also reads headings, image URLs and ALT text, links, Twitter Card values, hreflang, and structured data. The report includes the source URL, base URL, and time of the scan.</p>
         <p>URLs and metadata may contain personal or sensitive information. For example, the report flags a username or password embedded in a canonical URL and retains that value in the report and any copy you download.</p>
       </section>
       <section>
@@ -29,17 +29,23 @@
         <p>The extension stores its language preference locally in Chrome for future sessions. You can change it in the language menu.</p>
       </section>
       <section>
-        <h2>Welcome guide and website requests</h2>
+        <h2>Optional network checks in version 0.1.5 and later</h2>
+        <p>When you choose Check HTTP header, the extension requests the source page again to read its HTTP status and X-Robots-Tag header. The request uses your Chrome session for that site, so it can include the site's cookies. The result and time of the check are added to the report.</p>
+        <p>When you choose to check links or load social preview images, the browser requests the relevant URLs from the report. For other sites, Chrome asks you for access to the sites involved. Link and image requests omit cookies and authentication credentials and stop at redirects. Link results are added to the report. Preview image bytes stay in workspace memory and are excluded from downloaded reports.</p>
+        <p>Each destination site receives the requested URL, including any query string, your IP address, and ordinary request metadata. The publisher operates no server for these checks and receives no report data from them. If you open a site file or Google's Rich Results Test, Chrome opens the destination as an ordinary tab governed by that site's policy.</p>
+      </section>
+      <section>
+        <h2>Welcome guide</h2>
         <p>On first installation, Chrome opens the hosted Welcome guide with the extension ID and, when available, whether its icon is pinned. The guide exchanges pin state and language settings with the paired extension. The guide stores its language choice in your browser.</p>
         <p>When your browser loads the guide or this policy, the hosting provider receives standard web requests, including the requested address and IP address. A guide request may include the extension ID, pin state, or language. Site storage settings in your browser let you clear the guide’s saved language.</p>
       </section>
       <section>
         <h2>Limited Use</h2>
-        <p>We handle information received through Chrome APIs in accordance with the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store User Data Policy, including its Limited Use requirements</a>. Page data is used only to produce the report you request and stays on your device through review and export.</p>
+        <p>We handle information received through Chrome APIs in accordance with the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store User Data Policy, including its Limited Use requirements</a>. The extension uses page data to produce the audit you request. Reports are processed on your device, and the optional network checks send requests directly to their destination sites as described above.</p>
       </section>
       <section>
         <h2>Contact</h2>
-        <p>For questions about this policy, use the Support section of the Meta Tag Analyzer listing in the Chrome Web Store when available.</p>
+        <p>For questions about this policy, email <a href="mailto:support@welcomeplugin.com">support@welcomeplugin.com</a>.</p>
       </section>
     </article>
   </main>
