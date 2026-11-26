@@ -19,9 +19,13 @@
       <div class="guide-brand"><img src="../assets/meta.png" alt="" width="28" height="28"><span data-i18n="meta.name">Meta Tag Analyzer</span></div>
       <div class="language-picker" data-language-picker hidden>
         <span id="language-label" data-i18n="common.language.label">Language</span>
-        <select data-language-select aria-labelledby="language-label">
-          <option value="auto" data-i18n="common.language.auto">Browser default</option>
-        </select>
+        <span data-language-field>
+          <select data-language-select aria-labelledby="language-label">
+            <optgroup label="Browser default" data-i18n-label="common.language.auto">
+              <option value="auto" data-automatic-language-name>Browser default</option>
+            </optgroup>
+          </select>
+        </span>
       </div>
     </header>
     <p class="language-status" data-language-status data-i18n="common.language.fallback" role="status" hidden>Some of this guide is shown in English.</p>

@@ -6,7 +6,7 @@ const latinAmericanSpanish = new Set([
   'ar', 'bo', 'br', 'bz', 'cl', 'co', 'cr', 'cu', 'do', 'ec', 'gt', 'hn', 'mx',
   'ni', 'pa', 'pe', 'pr', 'py', 'sv', 'us', 'uy', 've', '419',
 ]);
-const translatableAttributes = ['alt', 'aria-label'];
+const translatableAttributes = ['alt', 'aria-label', 'label'];
 
 function browserTag(code) {
   return code.replace('_', '-');
@@ -151,6 +151,7 @@ export async function startLanguages(request) {
   const canonical = code => typeof code === 'string' ? codes.get(keyFor(code)) : undefined;
   const choice = code => code === 'auto' ? code : canonical(code);
   const select = picker.querySelector('[data-language-select]');
+  const automaticName = select.querySelector('[data-automatic-language-name]');
   const status = document.querySelector('[data-language-status]');
   const notes = document.querySelectorAll('[data-illustration-note]');
   const links = Array.from(document.querySelectorAll('[data-language-link]'), element =>
@@ -163,6 +164,13 @@ export async function startLanguages(request) {
     option.lang = browserTag(code);
     option.dir = rightToLeft.has(code) ? 'rtl' : 'ltr';
     select.append(option);
+  }
+
+  function updateAutomaticName(code) {
+    if (!automaticName) return;
+    automaticName.textContent = available.find(language => language.code === code).name;
+    automaticName.lang = browserTag(code);
+    automaticName.dir = rightToLeft.has(code) ? 'rtl' : 'ltr';
   }
 
   function catalogFor(code) {
@@ -205,7 +213,9 @@ export async function startLanguages(request) {
 
   const initialPreference = choice(new URLSearchParams(location.search).get('lang')) ?? choice(readPreference());
   let preference = initialPreference ?? 'auto';
-  let locale = preference === 'auto' ? browserLocale(canonical) : preference;
+  const browserLanguage = browserLocale(canonical);
+  let locale = preference === 'auto' ? browserLanguage : preference;
+  updateAutomaticName(browserLanguage);
 
   function display() {
     select.value = preference;
@@ -224,6 +234,7 @@ export async function startLanguages(request) {
   let syncing = false;
   let syncTimer;
   let paired = false;
+  let pairedAutomaticLanguage;
 
   async function synchronize() {
     clearTimeout(syncTimer);
@@ -244,6 +255,10 @@ export async function startLanguages(request) {
         setURLPreference(nextPreference);
       }
       paired = true;
+      if (automaticName && nextPreference === 'auto') {
+        pairedAutomaticLanguage = nextLocale;
+        updateAutomaticName(nextLocale);
+      }
       pendingPreference = undefined;
       preference = nextPreference;
       locale = nextLocale;
@@ -263,7 +278,7 @@ export async function startLanguages(request) {
     const next = choice(select.value);
     if (!next) return;
     preference = next;
-    locale = next === 'auto' ? browserLocale(canonical) : next;
+    locale = next === 'auto' ? (pairedAutomaticLanguage ?? browserLocale(canonical)) : next;
     savePreference(next);
     setURLPreference(next);
     pendingPreference = next;
@@ -275,12 +290,14 @@ export async function startLanguages(request) {
   window.addEventListener('focus', synchronize);
   window.addEventListener('pageshow', synchronize);
   window.addEventListener('languagechange', () => {
+    const browserLanguage = browserLocale(canonical);
+    if (!pairedAutomaticLanguage) updateAutomaticName(browserLanguage);
     if (preference !== 'auto') return;
     if (paired) {
       void synchronize();
       return;
     }
-    locale = browserLocale(canonical);
+    locale = browserLanguage;
     display();
   });
   display();

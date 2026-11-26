@@ -49,9 +49,32 @@ body.meta-quick-start {
 
 .meta-visual-guide .guide-brand img { flex: 0 0 28px; }
 .meta-visual-guide [data-language-picker] { margin: 0; color: var(--guide-text); font-size: 13px; }
+.meta-visual-guide [data-language-field] {
+  position: relative;
+  display: inline-flex;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  color: var(--guide-ink);
+}
+.meta-visual-guide [data-language-field]::after {
+  content: "";
+  position: absolute;
+  inset-inline-end: 14px;
+  inset-block-start: 50%;
+  box-sizing: border-box;
+  inline-size: 8px;
+  block-size: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-68%) rotate(45deg);
+  pointer-events: none;
+}
 .meta-visual-guide [data-language-picker] select {
+  appearance: none;
+  min-inline-size: 0;
   max-inline-size: 100%;
   padding: 6px 9px;
+  padding-inline-end: 34px;
   background: var(--guide-surface);
   color: var(--guide-ink);
   border-color: var(--guide-line);
