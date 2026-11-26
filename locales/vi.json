@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Đánh dấu trang cần bỏ và kiểm tra các trang còn lại",
   "pdf.usage.step4.body": "Nhấp vào {createCopy}, rồi {downloadCopy}. Chrome tải một PDF riêng và giữ nguyên tệp gốc.",
   "pdf.usage.step4.imageAlt": "Nút Tạo bản sao mới trên màn hình kiểm tra và nút Tải bản sao mới xuất hiện khi bản sao sẵn sàng.",
-  "pdf.usage.step4.title": "Lưu bản sao mới"
+  "pdf.usage.step4.title": "Lưu bản sao mới",
+  "meta.visual.pinTitle": "Tìm biểu tượng Meta",
+  "meta.visual.pinGuide": "Mở trình đơn Tiện ích bằng biểu tượng hình mảnh ghép. Ghim {name}, rồi nhấp vào biểu tượng của tiện ích trên trang bạn muốn kiểm tra.",
+  "meta.visual.example": "Mở trang mẫu",
+  "meta.visual.alreadyPinned": "Biểu tượng của tôi đã được ghim",
+  "meta.visual.showPin": "Cách ghim biểu tượng",
+  "meta.visual.showScan": "Tìm nút “Quét trang”",
+  "meta.visual.showIcon": "Tìm biểu tượng",
+  "meta.visual.chromePhoto": "Ảnh chụp thanh công cụ Chrome",
+  "meta.visual.workspacePhoto": "Ảnh chụp không gian làm việc"
 }

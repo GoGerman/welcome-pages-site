@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Tandai halaman dan periksa halaman yang tersisa",
   "pdf.usage.step4.body": "Klik {createCopy}, lalu {downloadCopy}. Chrome mengunduh PDF terpisah dan mempertahankan berkas asli.",
   "pdf.usage.step4.imageAlt": "Tombol Buat salinan baru pada layar pemeriksaan, dan tombol Unduh salinan baru yang muncul setelah salinan siap.",
-  "pdf.usage.step4.title": "Simpan salinan baru"
+  "pdf.usage.step4.title": "Simpan salinan baru",
+  "meta.visual.pinTitle": "Temukan ikon Meta",
+  "meta.visual.pinGuide": "Buka menu Ekstensi lewat ikon kepingan puzzle. Sematkan {name}, lalu klik ikonnya pada halaman yang ingin Anda periksa.",
+  "meta.visual.example": "Buka contoh",
+  "meta.visual.alreadyPinned": "Ikon sudah saya sematkan",
+  "meta.visual.showPin": "Cara menyematkan ikon",
+  "meta.visual.showScan": "Temukan tombol “Pindai halaman”",
+  "meta.visual.showIcon": "Temukan ikon",
+  "meta.visual.chromePhoto": "Tangkapan layar bilah alat Chrome",
+  "meta.visual.workspacePhoto": "Tangkapan layar ruang kerja"
 }

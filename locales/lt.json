@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Pažymėkite puslapius ir peržiūrėkite, kas liks",
   "pdf.usage.step4.body": "Spustelėkite {createCopy}, paskui {downloadCopy}. „Chrome“ atsisiunčia atskirą PDF ir išsaugo pradinį failą.",
   "pdf.usage.step4.imageAlt": "Peržiūros ekrane esantis mygtukas „Sukurti naują kopiją“ ir mygtukas „Atsisiųsti naują kopiją“, rodomas baigus ją kurti.",
-  "pdf.usage.step4.title": "Išsaugokite naują kopiją"
+  "pdf.usage.step4.title": "Išsaugokite naują kopiją",
+  "meta.visual.pinTitle": "Raskite „Meta“ piktogramą",
+  "meta.visual.pinGuide": "Atverkite meniu „Plėtiniai“ spustelėdami dėlionės detalės piktogramą. Prisekite „{name}“, tada, atvėrę norimą patikrinti puslapį, spustelėkite plėtinio piktogramą.",
+  "meta.visual.example": "Atverti pavyzdį",
+  "meta.visual.alreadyPinned": "Mano piktograma jau prisegta",
+  "meta.visual.showPin": "Kaip prisegti piktogramą",
+  "meta.visual.showScan": "Rasti „Nuskaityti puslapį“",
+  "meta.visual.showIcon": "Rasti piktogramą",
+  "meta.visual.chromePhoto": "„Chrome“ įrankių juostos ekrano vaizdas",
+  "meta.visual.workspacePhoto": "Darbo srities ekrano vaizdas"
 }

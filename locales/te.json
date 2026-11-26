@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "తొలగించే పేజీలను గుర్తించి మిగిలేవి సమీక్షించండి",
   "pdf.usage.step4.body": "{createCopy} క్లిక్ చేసి, ఆ తర్వాత {downloadCopy} క్లిక్ చేయండి. Chrome వేరే PDFని డౌన్‌లోడ్ చేసి అసలు ఫైల్‌ను ఉంచుతుంది.",
   "pdf.usage.step4.imageAlt": "సమీక్ష తెరలో కొత్త కాపీ రూపొందించే బటన్, కాపీ సిద్ధమైన తర్వాత కొత్త కాపీని డౌన్‌లోడ్ చేసే బటన్.",
-  "pdf.usage.step4.title": "కొత్త కాపీని సేవ్ చేయండి"
+  "pdf.usage.step4.title": "కొత్త కాపీని సేవ్ చేయండి",
+  "meta.visual.pinTitle": "Meta చిహ్నాన్ని కనుగొనండి",
+  "meta.visual.pinGuide": "పజిల్ చిహ్నంతో పొడిగింపుల మెనూను తెరవండి. “{name}”ను పిన్ చేయండి. ఆపై మీరు తనిఖీ చేయాలనుకునే పేజీలో దాని చిహ్నాన్ని క్లిక్ చేయండి.",
+  "meta.visual.example": "ఉదాహరణను తెరవండి",
+  "meta.visual.alreadyPinned": "నా చిహ్నం ఇప్పటికే పిన్ అయి ఉంది",
+  "meta.visual.showPin": "చిహ్నాన్ని పిన్ చేయడం ఎలా",
+  "meta.visual.showScan": "“పేజీని స్కాన్ చేయండి” బటన్‌ను కనుగొనండి",
+  "meta.visual.showIcon": "చిహ్నాన్ని కనుగొనండి",
+  "meta.visual.chromePhoto": "Chrome టూల్‌బార్ స్క్రీన్‌షాట్",
+  "meta.visual.workspacePhoto": "పని ప్రదేశం స్క్రీన్‌షాట్"
 }

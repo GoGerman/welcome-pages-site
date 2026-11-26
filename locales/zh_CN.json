@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "标记页面并检查保留页",
   "pdf.usage.step4.body": "点击“{createCopy}”，然后点击“{downloadCopy}”。Chrome 会下载一个单独的 PDF，原文件会保留。",
   "pdf.usage.step4.imageAlt": "核对界面中的“创建新副本”按钮，以及副本生成后出现的“下载新副本”按钮。",
-  "pdf.usage.step4.title": "保存新副本"
+  "pdf.usage.step4.title": "保存新副本",
+  "meta.visual.pinTitle": "找到 Meta 图标",
+  "meta.visual.pinGuide": "点击拼图图标打开“扩展程序”菜单，固定“{name}”，然后在要检查的页面上点击它的图标。",
+  "meta.visual.example": "打开示例",
+  "meta.visual.alreadyPinned": "我的图标已固定",
+  "meta.visual.showPin": "如何固定图标",
+  "meta.visual.showScan": "找到“扫描页面”按钮",
+  "meta.visual.showIcon": "找到图标",
+  "meta.visual.chromePhoto": "Chrome 工具栏截图",
+  "meta.visual.workspacePhoto": "工作区截图"
 }

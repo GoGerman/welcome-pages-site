@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "पेज चिह्नित करें और बचे हुए पेज जाँचें",
   "pdf.usage.step4.body": "{createCopy} पर क्लिक करें, फिर {downloadCopy} पर क्लिक करें। Chrome एक अलग PDF डाउनलोड करता है और मूल फ़ाइल रखता है।",
   "pdf.usage.step4.imageAlt": "जाँच स्क्रीन पर नई प्रति बनाने का बटन और प्रति तैयार होने के बाद दिखने वाला नई प्रति डाउनलोड करने का बटन।",
-  "pdf.usage.step4.title": "नई प्रति सहेजें"
+  "pdf.usage.step4.title": "नई प्रति सहेजें",
+  "meta.visual.pinTitle": "Meta का आइकन ढूँढें",
+  "meta.visual.pinGuide": "पज़ल के आइकन से एक्सटेंशन मेन्यू खोलें। “{name}” को पिन करें, फिर जिस पेज की जाँच करनी है उस पर इसके आइकन पर क्लिक करें।",
+  "meta.visual.example": "उदाहरण खोलें",
+  "meta.visual.alreadyPinned": "मेरा आइकन पहले से पिन है",
+  "meta.visual.showPin": "आइकन पिन करने का तरीका",
+  "meta.visual.showScan": "“पेज स्कैन करें” बटन ढूँढें",
+  "meta.visual.showIcon": "आइकन ढूँढें",
+  "meta.visual.chromePhoto": "Chrome टूलबार का स्क्रीनशॉट",
+  "meta.visual.workspacePhoto": "कार्यक्षेत्र का स्क्रीनशॉट"
 }

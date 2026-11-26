@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Sayfaları işaretleyin ve kalacak sayfaları kontrol edin",
   "pdf.usage.step4.body": "“{createCopy}” düğmesine ve ardından “{downloadCopy}” düğmesine tıklayın. Chrome ayrı bir PDF indirir ve özgün dosyayı korur.",
   "pdf.usage.step4.imageAlt": "Kontrol ekranındaki “Yeni kopya oluştur” düğmesi ve kopya hazır olduğunda görünen “Yeni kopyayı indir” düğmesi.",
-  "pdf.usage.step4.title": "Yeni bir kopya kaydedin"
+  "pdf.usage.step4.title": "Yeni bir kopya kaydedin",
+  "meta.visual.pinTitle": "Meta simgesini bulun",
+  "meta.visual.pinGuide": "Yapboz parçası simgesine tıklayarak “Uzantılar” menüsünü açın. {name} uzantısını sabitleyin, ardından kontrol etmek istediğiniz sayfada simgesine tıklayın.",
+  "meta.visual.example": "Örneği aç",
+  "meta.visual.alreadyPinned": "Simgem zaten sabitli",
+  "meta.visual.showPin": "Simge nasıl sabitlenir?",
+  "meta.visual.showScan": "“Sayfayı tara” düğmesini bul",
+  "meta.visual.showIcon": "Simgeyi bul",
+  "meta.visual.chromePhoto": "Chrome araç çubuğunun ekran görüntüsü",
+  "meta.visual.workspacePhoto": "Çalışma alanının ekran görüntüsü"
 }

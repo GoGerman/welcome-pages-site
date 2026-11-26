@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Merk sider og kontroller hvilke som beholdes",
   "pdf.usage.step4.body": "Klikk på «{createCopy}» og deretter på «{downloadCopy}». Chrome laster ned en separat PDF. Originalfilen beholdes.",
   "pdf.usage.step4.imageAlt": "Knappen «Lag ny kopi» på kontrollskjermen og knappen «Last ned ny kopi», som vises når kopien er klar.",
-  "pdf.usage.step4.title": "Lagre en ny kopi"
+  "pdf.usage.step4.title": "Lagre en ny kopi",
+  "meta.visual.pinTitle": "Finn Meta-ikonet",
+  "meta.visual.pinGuide": "Åpne menyen «Utvidelser» med puslespillikonet. Fest {name}, og klikk på ikonet mens siden du vil kontrollere, er åpen.",
+  "meta.visual.example": "Åpne eksemplet",
+  "meta.visual.alreadyPinned": "Ikonet mitt er allerede festet",
+  "meta.visual.showPin": "Slik fester du ikonet",
+  "meta.visual.showScan": "Finn «Skann siden»",
+  "meta.visual.showIcon": "Finn ikonet",
+  "meta.visual.chromePhoto": "Skjermbilde av verktøylinjen i Chrome",
+  "meta.visual.workspacePhoto": "Skjermbilde av arbeidsområdet"
 }

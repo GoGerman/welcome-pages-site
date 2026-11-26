@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Означите странице и проверите које остају",
   "pdf.usage.step4.body": "Кликните на {createCopy}, а затим на {downloadCopy}. Chrome преузима засебан PDF и задржава оригиналну датотеку.",
   "pdf.usage.step4.imageAlt": "Дугме „Направи нову копију“ на екрану за преглед и дугме „Преузми нову копију“ које се појављује кад је копија спремна.",
-  "pdf.usage.step4.title": "Сачувајте нову копију"
+  "pdf.usage.step4.title": "Сачувајте нову копију",
+  "meta.visual.pinTitle": "Пронађите икону додатка Meta",
+  "meta.visual.pinGuide": "Отворите мени „Додаци“ преко иконе у облику дела слагалице. Закачите додатак {name}, па кликните на његову икону на страници коју желите да проверите.",
+  "meta.visual.example": "Отвори пример",
+  "meta.visual.alreadyPinned": "Моја икона је већ закачена",
+  "meta.visual.showPin": "Како да закачим икону",
+  "meta.visual.showScan": "Пронађи „Скенирај страницу“",
+  "meta.visual.showIcon": "Пронађи икону",
+  "meta.visual.chromePhoto": "Снимак траке са алаткама у Chrome-у",
+  "meta.visual.workspacePhoto": "Снимак радног простора"
 }

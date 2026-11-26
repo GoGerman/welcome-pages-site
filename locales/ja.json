@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "除外するページを選び、残るページを確認する",
   "pdf.usage.step4.body": "{createCopy}をクリックし、続けて{downloadCopy}をクリックします。Chromeが別のPDFをダウンロードし、元のファイルはそのまま残ります。",
   "pdf.usage.step4.imageAlt": "確認画面の「新しいコピーを作成」ボタンと、コピーの準備完了後に表示される「新しいコピーをダウンロード」ボタン。",
-  "pdf.usage.step4.title": "新しいコピーを保存する"
+  "pdf.usage.step4.title": "新しいコピーを保存する",
+  "meta.visual.pinTitle": "Metaのアイコンを見つける",
+  "meta.visual.pinGuide": "パズルのアイコンから拡張機能メニューを開きます。「{name}」を固定し、調べたいページでそのアイコンをクリックします。",
+  "meta.visual.example": "例を開く",
+  "meta.visual.alreadyPinned": "アイコンはすでに固定済み",
+  "meta.visual.showPin": "アイコンを固定する方法",
+  "meta.visual.showScan": "「ページをスキャン」ボタンを見つける",
+  "meta.visual.showIcon": "アイコンを見つける",
+  "meta.visual.chromePhoto": "Chromeツールバーのスクリーンショット",
+  "meta.visual.workspacePhoto": "作業画面のスクリーンショット"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Markér sider, og se, hvilke der bevares",
   "pdf.usage.step4.body": "Klik på »{createCopy}« og derefter på »{downloadCopy}«. Chrome downloader en separat PDF og bevarer den oprindelige fil.",
   "pdf.usage.step4.imageAlt": "Knappen »Opret en ny kopi« på gennemgangsskærmen og knappen »Download den nye kopi«, der vises, når kopien er klar.",
-  "pdf.usage.step4.title": "Gem en ny kopi"
+  "pdf.usage.step4.title": "Gem en ny kopi",
+  "meta.visual.pinTitle": "Find Meta-ikonet",
+  "meta.visual.pinGuide": "Åbn »Udvidelser« med puslespilsikonet. Fastgør »{name}«, og klik derefter på ikonet, når du er på den side, du vil kontrollere.",
+  "meta.visual.example": "Åbn eksemplet",
+  "meta.visual.alreadyPinned": "Mit ikon er allerede fastgjort",
+  "meta.visual.showPin": "Sådan fastgør du ikonet",
+  "meta.visual.showScan": "Find »Scan siden«",
+  "meta.visual.showIcon": "Find ikonet",
+  "meta.visual.chromePhoto": "Skærmbillede af Chromes værktøjslinje",
+  "meta.visual.workspacePhoto": "Skærmbillede af arbejdsområdet"
 }

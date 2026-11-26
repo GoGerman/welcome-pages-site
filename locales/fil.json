@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Markahan ang mga pahina at suriin ang matitira",
   "pdf.usage.step4.body": "I-click ang {createCopy} at pagkatapos ay {downloadCopy}. Magda-download ang Chrome ng hiwalay na PDF at mananatili ang orihinal.",
   "pdf.usage.step4.imageAlt": "Ang pindutan ng paglikha ng bagong kopya sa screen ng pagsusuri, at ang pindutan ng pag-download nito kapag handa na.",
-  "pdf.usage.step4.title": "I-save ang bagong kopya"
+  "pdf.usage.step4.title": "I-save ang bagong kopya",
+  "meta.visual.pinTitle": "Hanapin ang ikono ng Meta",
+  "meta.visual.pinGuide": "Buksan ang menu ng Mga Ekstensiyon gamit ang ikonong hugis piraso ng puzzle. I-pin ang {name}, saka i-click ang ikono nito sa pahinang nais mong suriin.",
+  "meta.visual.example": "Buksan ang halimbawa",
+  "meta.visual.alreadyPinned": "Naka-pin na ang ikono ko",
+  "meta.visual.showPin": "Paano i-pin ang ikono",
+  "meta.visual.showScan": "Hanapin ang “I-scan ang pahina”",
+  "meta.visual.showIcon": "Hanapin ang ikono",
+  "meta.visual.chromePhoto": "Screenshot ng toolbar ng Chrome",
+  "meta.visual.workspacePhoto": "Screenshot ng workspace"
 }

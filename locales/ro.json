@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Marchează paginile și verifică ce rămâne",
   "pdf.usage.step4.body": "Apasă {createCopy}, apoi {downloadCopy}. Chrome descarcă un PDF separat și păstrează fișierul original.",
   "pdf.usage.step4.imageAlt": "Butonul „Creează o copie nouă” de pe ecranul de verificare și butonul „Descarcă noua copie” care apare când copia este gata.",
-  "pdf.usage.step4.title": "Salvează o copie nouă"
+  "pdf.usage.step4.title": "Salvează o copie nouă",
+  "meta.visual.pinTitle": "Găsește pictograma Meta",
+  "meta.visual.pinGuide": "Apasă pictograma în formă de piesă de puzzle pentru a deschide meniul „Extensii”. Fixează {name}, apoi apasă pictograma extensiei pe pagina pe care vrei s-o verifici.",
+  "meta.visual.example": "Deschide exemplul",
+  "meta.visual.alreadyPinned": "Pictograma mea este deja fixată",
+  "meta.visual.showPin": "Cum fixezi pictograma",
+  "meta.visual.showScan": "Găsește butonul „Scanează pagina”",
+  "meta.visual.showIcon": "Găsește pictograma",
+  "meta.visual.chromePhoto": "Captură de ecran a barei de instrumente din Chrome",
+  "meta.visual.workspacePhoto": "Captură de ecran a spațiului de lucru"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "صفحه‌ها را علامت بزنید و باقی‌مانده‌ها را بررسی کنید",
   "pdf.usage.step4.body": "روی {createCopy} و سپس {downloadCopy} کلیک کنید. Chrome یک PDF جداگانه می‌گیرد و فایل اصلی را نگه می‌دارد.",
   "pdf.usage.step4.imageAlt": "دکمهٔ ساخت نسخهٔ تازه در نمای بررسی و دکمهٔ دریافت نسخه که پس از آماده شدن نمایش داده می‌شود.",
-  "pdf.usage.step4.title": "نسخهٔ تازه را ذخیره کنید"
+  "pdf.usage.step4.title": "نسخهٔ تازه را ذخیره کنید",
+  "meta.visual.pinTitle": "نماد Meta را پیدا کنید",
+  "meta.visual.pinGuide": "با نماد پازل، منوی افزونه‌ها را باز کنید. «{name}» را سنجاق کنید و سپس در صفحه‌ای که می‌خواهید بررسی کنید، روی نماد آن کلیک کنید.",
+  "meta.visual.example": "نمونه را باز کنید",
+  "meta.visual.alreadyPinned": "نماد من از قبل سنجاق شده است",
+  "meta.visual.showPin": "روش سنجاق کردن نماد",
+  "meta.visual.showScan": "دکمهٔ «پویش صفحه» را پیدا کنید",
+  "meta.visual.showIcon": "نماد را پیدا کنید",
+  "meta.visual.chromePhoto": "تصویر صفحه از نوار ابزار Chrome",
+  "meta.visual.workspacePhoto": "تصویر صفحه از زبانهٔ کار"
 }

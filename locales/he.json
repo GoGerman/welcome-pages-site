@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "סימון עמודים ובדיקת העמודים שנשארים",
   "pdf.usage.step4.body": "לחצו על {createCopy} ואחר כך על {downloadCopy}. ‏Chrome יוריד PDF נפרד וישאיר את הקובץ המקורי.",
   "pdf.usage.step4.imageAlt": "כפתור „יצירת עותק חדש” במסך הבדיקה וכפתור „הורדת העותק החדש” שמופיע כשהעותק מוכן.",
-  "pdf.usage.step4.title": "שמירת עותק חדש"
+  "pdf.usage.step4.title": "שמירת עותק חדש",
+  "meta.visual.pinTitle": "מציאת הסמל של Meta",
+  "meta.visual.pinGuide": "פתחו את תפריט התוספים דרך סמל חלק הפאזל. הצמידו את „{name}” לסרגל הכלים, ואז לחצו על הסמל שלו בדף שתרצו לבדוק.",
+  "meta.visual.example": "פתיחת דוגמה",
+  "meta.visual.alreadyPinned": "הסמל שלי כבר מוצמד",
+  "meta.visual.showPin": "איך להצמיד את הסמל",
+  "meta.visual.showScan": "מציאת הכפתור „סריקת הדף”",
+  "meta.visual.showIcon": "מציאת הסמל",
+  "meta.visual.chromePhoto": "צילום מסך של סרגל הכלים של Chrome",
+  "meta.visual.workspacePhoto": "צילום מסך של סביבת העבודה"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Označite strani in preverite, katere ostanejo",
   "pdf.usage.step4.body": "Kliknite {createCopy}, nato {downloadCopy}. Chrome prenese ločen PDF in ohrani izvirno datoteko.",
   "pdf.usage.step4.imageAlt": "Gumb »Ustvari novo kopijo« na zaslonu za pregled in gumb »Prenesi novo kopijo«, ki se prikaže, ko je kopija pripravljena.",
-  "pdf.usage.step4.title": "Shranite novo kopijo"
+  "pdf.usage.step4.title": "Shranite novo kopijo",
+  "meta.visual.pinTitle": "Poiščite ikono Meta",
+  "meta.visual.pinGuide": "Meni Razširitve odprite z ikono v obliki koščka sestavljanke. Pripnite razširitev {name} in na strani, ki jo želite pregledati, kliknite njeno ikono.",
+  "meta.visual.example": "Odpri primer",
+  "meta.visual.alreadyPinned": "Moja ikona je že pripeta",
+  "meta.visual.showPin": "Kako pripeti ikono",
+  "meta.visual.showScan": "Poišči »Preglej stran«",
+  "meta.visual.showIcon": "Poišči ikono",
+  "meta.visual.chromePhoto": "Posnetek Chromove orodne vrstice",
+  "meta.visual.workspacePhoto": "Posnetek delovnega okolja"
 }

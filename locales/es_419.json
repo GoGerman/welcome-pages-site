@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Marcar páginas y revisar cuáles se conservan",
   "pdf.usage.step4.body": "Haz clic en «{createCopy}» y después «{downloadCopy}». Chrome descarga un PDF aparte y conserva el archivo original.",
   "pdf.usage.step4.imageAlt": "Botón «Crear copia nueva» en la pantalla de revisión y botón «Descargar copia nueva» al terminar.",
-  "pdf.usage.step4.title": "Guardar una copia nueva"
+  "pdf.usage.step4.title": "Guardar una copia nueva",
+  "meta.visual.pinTitle": "Encuentra el ícono de Meta",
+  "meta.visual.pinGuide": "Abre «Extensiones» con el ícono de la pieza de rompecabezas. Fija «{name}» y haz clic en su ícono desde la página que quieres revisar.",
+  "meta.visual.example": "Abrir el ejemplo",
+  "meta.visual.alreadyPinned": "Ya tengo el ícono fijado",
+  "meta.visual.showPin": "Cómo fijar el ícono",
+  "meta.visual.showScan": "Encontrar «Analizar página»",
+  "meta.visual.showIcon": "Encontrar el ícono",
+  "meta.visual.chromePhoto": "Captura de la barra de herramientas de Chrome",
+  "meta.visual.workspacePhoto": "Captura del espacio de trabajo"
 }

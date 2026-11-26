@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Märgi leheküljed ja vaata, millised jäävad alles",
   "pdf.usage.step4.body": "Klõpsa {createCopy} ja seejärel {downloadCopy}. Chrome laadib alla eraldi PDF-i ja säilitab originaalfaili.",
   "pdf.usage.step4.imageAlt": "Ülevaatekuva nupp „Loo uus koopia” ja nupp „Laadi uus koopia alla”, mis ilmub koopia valmimisel.",
-  "pdf.usage.step4.title": "Salvesta uus koopia"
+  "pdf.usage.step4.title": "Salvesta uus koopia",
+  "meta.visual.pinTitle": "Leia Meta ikoon",
+  "meta.visual.pinGuide": "Ava pusletüki ikoonist menüü „Laiendused”. Kinnita laiendus „{name}” ning klõpsa selle ikooni lehel, mida soovid kontrollida.",
+  "meta.visual.example": "Ava näidis",
+  "meta.visual.alreadyPinned": "Minu ikoon on juba kinnitatud",
+  "meta.visual.showPin": "Kuidas ikooni kinnitada",
+  "meta.visual.showScan": "Leia nupp „Skanni lehte”",
+  "meta.visual.showIcon": "Leia ikoon",
+  "meta.visual.chromePhoto": "Chrome’i tööriistariba ekraanipilt",
+  "meta.visual.workspacePhoto": "Tööala ekraanipilt"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "पानांवर खूण करा आणि उरलेली पाने तपासा",
   "pdf.usage.step4.body": "{createCopy} वर क्लिक करा, मग {downloadCopy} वर क्लिक करा. Chrome वेगळी PDF डाउनलोड करतो आणि मूळ फाइल ठेवतो.",
   "pdf.usage.step4.imageAlt": "तपासणी स्क्रीनवर नवीन प्रत तयार करण्याचे बटण आणि प्रत तयार झाल्यावर दिसणारे डाउनलोड बटण.",
-  "pdf.usage.step4.title": "नवीन प्रत जतन करा"
+  "pdf.usage.step4.title": "नवीन प्रत जतन करा",
+  "meta.visual.pinTitle": "Meta चे चिन्ह शोधा",
+  "meta.visual.pinGuide": "पझलच्या चिन्हावर क्लिक करून एक्स्टेन्शन्स मेनू उघडा. “{name}” पिन करा आणि मग तपासायच्या पानावर त्याच्या चिन्हावर क्लिक करा.",
+  "meta.visual.example": "उदाहरण उघडा",
+  "meta.visual.alreadyPinned": "माझे चिन्ह आधीच पिन केले आहे",
+  "meta.visual.showPin": "चिन्ह कसे पिन करायचे",
+  "meta.visual.showScan": "“पान स्कॅन करा” बटण शोधा",
+  "meta.visual.showIcon": "चिन्ह शोधा",
+  "meta.visual.chromePhoto": "Chrome टूलबारचा स्क्रीनशॉट",
+  "meta.visual.workspacePhoto": "कार्यक्षेत्राचा स्क्रीनशॉट"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Markera sidor och granska vilka som behålls",
   "pdf.usage.step4.body": "Klicka på ”{createCopy}” och sedan på ”{downloadCopy}”. Chrome laddar ned en separat PDF och originalfilen finns kvar.",
   "pdf.usage.step4.imageAlt": "Knappen ”Skapa en ny kopia” på granskningsskärmen och knappen ”Ladda ned den nya kopian”, som visas när kopian är klar.",
-  "pdf.usage.step4.title": "Spara en ny kopia"
+  "pdf.usage.step4.title": "Spara en ny kopia",
+  "meta.visual.pinTitle": "Hitta Meta-ikonen",
+  "meta.visual.pinGuide": "Öppna menyn ”Tillägg” med pusselbitsikonen. Fäst {name} och klicka sedan på tilläggets ikon på sidan du vill kontrollera.",
+  "meta.visual.example": "Öppna exemplet",
+  "meta.visual.alreadyPinned": "Min ikon är redan fäst",
+  "meta.visual.showPin": "Så fäster du ikonen",
+  "meta.visual.showScan": "Hitta ”Skanna sidan”",
+  "meta.visual.showIcon": "Hitta ikonen",
+  "meta.visual.chromePhoto": "Skärmbild av Chromes verktygsfält",
+  "meta.visual.workspacePhoto": "Skärmbild av arbetsytan"
 }

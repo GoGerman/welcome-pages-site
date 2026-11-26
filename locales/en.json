@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Mark pages and review what stays",
   "pdf.usage.step4.body": "Click {createCopy}, then {downloadCopy}. Chrome downloads a separate PDF and keeps your original file.",
   "pdf.usage.step4.imageAlt": "The review screen’s Create new copy button and the Download new copy button that appears when the copy is ready.",
-  "pdf.usage.step4.title": "Save a new copy"
+  "pdf.usage.step4.title": "Save a new copy",
+  "meta.visual.pinTitle": "Find the Meta icon",
+  "meta.visual.pinGuide": "Open Extensions with the puzzle icon. Pin {name}, then click its icon on the page you want to check.",
+  "meta.visual.example": "Open example",
+  "meta.visual.alreadyPinned": "My icon is already pinned",
+  "meta.visual.showPin": "How to pin the icon",
+  "meta.visual.showScan": "Find Scan page",
+  "meta.visual.showIcon": "Find the icon",
+  "meta.visual.chromePhoto": "Chrome toolbar screenshot",
+  "meta.visual.workspacePhoto": "Workspace screenshot"
 }

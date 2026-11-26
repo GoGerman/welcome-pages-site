@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Seiten markieren und verbleibende Seiten prüfen",
   "pdf.usage.step4.body": "Klicken Sie auf „{createCopy}“ und anschließend auf „{downloadCopy}“. Chrome lädt eine separate PDF-Datei herunter. Ihre Originaldatei bleibt erhalten.",
   "pdf.usage.step4.imageAlt": "Schaltfläche „Neue Kopie erstellen“ im Prüfbildschirm und Schaltfläche „Neue Kopie herunterladen“, die nach der Erstellung erscheint.",
-  "pdf.usage.step4.title": "Neue Kopie speichern"
+  "pdf.usage.step4.title": "Neue Kopie speichern",
+  "meta.visual.pinTitle": "Finden Sie das Meta-Symbol",
+  "meta.visual.pinGuide": "Öffnen Sie „Erweiterungen“ über das Puzzleteil-Symbol. Heften Sie „{name}“ an und klicken Sie auf das Erweiterungssymbol, während die zu prüfende Seite geöffnet ist.",
+  "meta.visual.example": "Beispiel öffnen",
+  "meta.visual.alreadyPinned": "Mein Symbol ist bereits angeheftet",
+  "meta.visual.showPin": "So heften Sie das Symbol an",
+  "meta.visual.showScan": "„Seite analysieren“ finden",
+  "meta.visual.showIcon": "Symbol finden",
+  "meta.visual.chromePhoto": "Screenshot der Chrome-Symbolleiste",
+  "meta.visual.workspacePhoto": "Screenshot des Arbeitsbereichs"
 }

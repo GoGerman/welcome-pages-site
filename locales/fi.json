@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Merkitse sivut ja tarkista säilytettävät sivut",
   "pdf.usage.step4.body": "Napsauta ”{createCopy}” ja sitten ”{downloadCopy}”. Chrome lataa erillisen PDF-tiedoston, ja alkuperäinen tiedostosi säilyy.",
   "pdf.usage.step4.imageAlt": "Tarkistusnäkymän Luo uusi kopio -painike ja Lataa uusi kopio -painike, joka tulee näkyviin, kun kopio on valmis.",
-  "pdf.usage.step4.title": "Tallenna uusi kopio"
+  "pdf.usage.step4.title": "Tallenna uusi kopio",
+  "meta.visual.pinTitle": "Etsi Metan kuvake",
+  "meta.visual.pinGuide": "Avaa Laajennukset-valikko palapelikuvakkeesta. Kiinnitä ”{name}” ja napsauta sen kuvaketta, kun tarkistettava sivu on auki.",
+  "meta.visual.example": "Avaa esimerkki",
+  "meta.visual.alreadyPinned": "Kuvakkeeni on jo kiinnitetty",
+  "meta.visual.showPin": "Kuvakkeen kiinnittäminen",
+  "meta.visual.showScan": "Etsi ”Analysoi sivu”",
+  "meta.visual.showIcon": "Etsi kuvake",
+  "meta.visual.chromePhoto": "Kuvakaappaus Chromen työkalupalkista",
+  "meta.visual.workspacePhoto": "Kuvakaappaus työtilasta"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Pagina’s markeren en controleren welke blijven",
   "pdf.usage.step4.body": "Klik op ‘{createCopy}’ en daarna op ‘{downloadCopy}’. Chrome downloadt een aparte PDF. Het oorspronkelijke bestand blijft behouden.",
   "pdf.usage.step4.imageAlt": "Knop ‘Nieuwe kopie maken’ op het controlescherm en knop ‘Nieuwe kopie downloaden’, die verschijnt als de kopie gereed is.",
-  "pdf.usage.step4.title": "Een nieuwe kopie opslaan"
+  "pdf.usage.step4.title": "Een nieuwe kopie opslaan",
+  "meta.visual.pinTitle": "Zoek het Meta-pictogram",
+  "meta.visual.pinGuide": "Open het menu ‘Extensies’ via het puzzelstukje. Zet ‘{name}’ vast en klik vervolgens op het pictogram wanneer de pagina die je wilt controleren openstaat.",
+  "meta.visual.example": "Voorbeeld openen",
+  "meta.visual.alreadyPinned": "Mijn pictogram is al vastgezet",
+  "meta.visual.showPin": "Het pictogram vastzetten",
+  "meta.visual.showScan": "‘Pagina analyseren’ vinden",
+  "meta.visual.showIcon": "Het pictogram vinden",
+  "meta.visual.chromePhoto": "Screenshot van de Chrome-werkbalk",
+  "meta.visual.workspacePhoto": "Screenshot van de werkruimte"
 }

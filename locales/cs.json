@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Označte stránky a zkontrolujte, které zůstanou",
   "pdf.usage.step4.body": "Klikněte na {createCopy} a pak na {downloadCopy}. Chrome stáhne samostatný soubor PDF a původní soubor zachová.",
   "pdf.usage.step4.imageAlt": "Tlačítko vytvoření nové kopie v přehledu a tlačítko pro stažení, které se zobrazí po jejím vytvoření.",
-  "pdf.usage.step4.title": "Uložte novou kopii"
+  "pdf.usage.step4.title": "Uložte novou kopii",
+  "meta.visual.pinTitle": "Najděte ikonu Meta",
+  "meta.visual.pinGuide": "Otevřete nabídku rozšíření ikonou dílku skládačky. Připněte „{name}“ a potom na stránce, kterou chcete zkontrolovat, klikněte na ikonu rozšíření.",
+  "meta.visual.example": "Otevřít příklad",
+  "meta.visual.alreadyPinned": "Ikonu už mám připnutou",
+  "meta.visual.showPin": "Jak připnout ikonu",
+  "meta.visual.showScan": "Najít „Skenovat stránku“",
+  "meta.visual.showIcon": "Najít ikonu",
+  "meta.visual.chromePhoto": "Snímek panelu nástrojů Chromu",
+  "meta.visual.workspacePhoto": "Snímek pracovního prostoru"
 }

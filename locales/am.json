@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "ገጾችን አመልክተው የሚቀሩትን ይፈትሹ",
   "pdf.usage.step4.body": "{createCopy} ይጫኑ፣ ከዚያ {downloadCopy} ይጫኑ። Chrome የተለየ PDF ያወርዳል፣ ዋናው ፋይልም ይቆያል።",
   "pdf.usage.step4.imageAlt": "በቅጂው ምርመራ ማያ ገጽ አዲስ ቅጂ የመፍጠሪያ አዝራርና ቅጂው ከተዘጋጀ በኋላ የሚታየው የማውረጃ አዝራር።",
-  "pdf.usage.step4.title": "አዲሱን ቅጂ ያስቀምጡ"
+  "pdf.usage.step4.title": "አዲሱን ቅጂ ያስቀምጡ",
+  "meta.visual.pinTitle": "የMeta አዶን ያግኙ",
+  "meta.visual.pinGuide": "የእንቆቅልሽ አዶውን በመጫን የቅጥያዎች ምናሌን ይክፈቱ። ከ“{name}” ጎን ያለውን መሰኪያ ይጫኑ፣ ከዚያ ሊመረምሩት በሚፈልጉት ገጽ ላይ አዶውን ይጫኑ።",
+  "meta.visual.example": "ምሳሌውን ይክፈቱ",
+  "meta.visual.alreadyPinned": "አዶዬ አስቀድሞ ተሰክቷል",
+  "meta.visual.showPin": "አዶውን የመሰካት ዘዴ",
+  "meta.visual.showScan": "“ገጹን ይመርምሩ” የሚለውን አዝራር ያግኙ",
+  "meta.visual.showIcon": "አዶውን ያግኙ",
+  "meta.visual.chromePhoto": "የChrome መሣሪያ አሞሌ የማያ ገጽ ምስል",
+  "meta.visual.workspacePhoto": "የሥራ ቦታው የማያ ገጽ ምስል"
 }

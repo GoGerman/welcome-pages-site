@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Tia alama kurasa za kuondoa na kagua zinazobaki",
   "pdf.usage.step4.body": "Bofya {createCopy}, kisha {downloadCopy}. Chrome hupakua PDF tofauti na kubakiza faili yako asili.",
   "pdf.usage.step4.imageAlt": "Kitufe cha kuunda nakala mpya kwenye skrini ya ukaguzi, na kitufe cha kupakua nakala mpya kinachoonekana nakala ikiwa tayari.",
-  "pdf.usage.step4.title": "Hifadhi nakala mpya"
+  "pdf.usage.step4.title": "Hifadhi nakala mpya",
+  "meta.visual.pinTitle": "Tafuta ikoni ya Meta",
+  "meta.visual.pinGuide": "Fungua menyu ya Viendelezi kwa kubofya ikoni yenye umbo la kipande cha fumbo. Bandika {name}, kisha ubofye ikoni yake kwenye ukurasa unaotaka kukagua.",
+  "meta.visual.example": "Fungua mfano",
+  "meta.visual.alreadyPinned": "Ikoni yangu tayari imebandikwa",
+  "meta.visual.showPin": "Jinsi ya kubandika ikoni",
+  "meta.visual.showScan": "Tafuta “Changanua ukurasa”",
+  "meta.visual.showIcon": "Tafuta ikoni",
+  "meta.visual.chromePhoto": "Picha ya skrini ya upau wa zana wa Chrome",
+  "meta.visual.workspacePhoto": "Picha ya skrini ya eneo la kazi"
 }

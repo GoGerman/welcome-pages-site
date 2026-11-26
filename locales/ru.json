@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Отметьте лишнее и проверьте, что останется",
   "pdf.usage.step4.body": "Нажмите {createCopy}, затем {downloadCopy}. Chrome скачает отдельный PDF и сохранит исходный файл.",
   "pdf.usage.step4.imageAlt": "Кнопка создания новой копии на экране проверки и кнопка скачивания, которая появляется после подготовки копии.",
-  "pdf.usage.step4.title": "Сохраните новую копию"
+  "pdf.usage.step4.title": "Сохраните новую копию",
+  "meta.visual.pinTitle": "Найдите значок Meta",
+  "meta.visual.pinGuide": "Откройте «Расширения» по значку пазла. Закрепите «{name}» булавкой и нажмите его значок на исходной вкладке.",
+  "meta.visual.example": "Открыть пример",
+  "meta.visual.alreadyPinned": "Значок уже на панели",
+  "meta.visual.showPin": "Как закрепить значок",
+  "meta.visual.showScan": "Где нажать «Сканировать страницу»",
+  "meta.visual.showIcon": "Где значок",
+  "meta.visual.chromePhoto": "Скриншот панели Chrome",
+  "meta.visual.workspacePhoto": "Скриншот рабочей вкладки"
 }

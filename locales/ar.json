@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "علّم الصفحات وراجع ما سيبقى",
   "pdf.usage.step4.body": "انقر على {createCopy} ثم {downloadCopy}. ينزّل Chrome ملف PDF منفصلًا ويحافظ على الملف الأصلي.",
   "pdf.usage.step4.imageAlt": "زر إنشاء نسخة جديدة في واجهة المراجعة وزر تنزيلها الذي يظهر عند اكتمالها.",
-  "pdf.usage.step4.title": "احفظ نسخة جديدة"
+  "pdf.usage.step4.title": "احفظ نسخة جديدة",
+  "meta.visual.pinTitle": "اعثر على أيقونة Meta",
+  "meta.visual.pinGuide": "افتح قائمة الإضافات بالنقر على أيقونة قطعة الأحجية. ثبّت «{name}» في شريط الأدوات، ثم انقر على أيقونته في الصفحة التي تريد فحصها.",
+  "meta.visual.example": "افتح المثال",
+  "meta.visual.alreadyPinned": "أيقونتي مثبّتة بالفعل",
+  "meta.visual.showPin": "كيفية تثبيت الأيقونة",
+  "meta.visual.showScan": "اعثر على زر «افحص الصفحة»",
+  "meta.visual.showIcon": "اعثر على الأيقونة",
+  "meta.visual.chromePhoto": "لقطة شاشة لشريط أدوات Chrome",
+  "meta.visual.workspacePhoto": "لقطة شاشة لمساحة العمل"
 }

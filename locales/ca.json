@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Marca pàgines i revisa quines es conserven",
   "pdf.usage.step4.body": "Fes clic a «{createCopy}» i després a «{downloadCopy}». Chrome baixa un PDF separat i conserva el fitxer original.",
   "pdf.usage.step4.imageAlt": "Botó «Crea una còpia nova» a la pantalla de revisió i botó «Baixa la còpia nova» que apareix quan la còpia està a punt.",
-  "pdf.usage.step4.title": "Desa una còpia nova"
+  "pdf.usage.step4.title": "Desa una còpia nova",
+  "meta.visual.pinTitle": "Troba la icona de Meta",
+  "meta.visual.pinGuide": "Obre «Extensions» amb la icona de peça de trencaclosques. Fixa «{name}» i fes clic a la seva icona quan tinguis oberta la pàgina que vols comprovar.",
+  "meta.visual.example": "Obre l’exemple",
+  "meta.visual.alreadyPinned": "Ja tinc la icona fixada",
+  "meta.visual.showPin": "Com es fixa la icona",
+  "meta.visual.showScan": "Troba «Analitza la pàgina»",
+  "meta.visual.showIcon": "Troba la icona",
+  "meta.visual.chromePhoto": "Captura de la barra d’eines de Chrome",
+  "meta.visual.workspacePhoto": "Captura de l’espai de treball"
 }

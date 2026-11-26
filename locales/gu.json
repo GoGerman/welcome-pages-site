@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "પાનાં ચિહ્નિત કરીને બાકી પાનાં તપાસો",
   "pdf.usage.step4.body": "{createCopy} ક્લિક કરો અને પછી {downloadCopy} ક્લિક કરો. Chrome અલગ PDF ડાઉનલોડ કરે છે અને મૂળ ફાઇલ રાખે છે.",
   "pdf.usage.step4.imageAlt": "સમીક્ષા સ્ક્રીન પર નવી નકલ બનાવવાનું બટન અને નકલ તૈયાર થયા પછી દેખાતું ડાઉનલોડ બટન.",
-  "pdf.usage.step4.title": "નવી નકલ સાચવો"
+  "pdf.usage.step4.title": "નવી નકલ સાચવો",
+  "meta.visual.pinTitle": "Metaનું આઇકન શોધો",
+  "meta.visual.pinGuide": "પઝલ આઇકનથી એક્સ્ટેન્શન મેનૂ ખોલો. “{name}”ને પિન કરો, પછી જે પાનું તપાસવું હોય ત્યાં તેના આઇકન પર ક્લિક કરો.",
+  "meta.visual.example": "ઉદાહરણ ખોલો",
+  "meta.visual.alreadyPinned": "મારું આઇકન પહેલેથી પિન કરેલું છે",
+  "meta.visual.showPin": "આઇકન પિન કરવાની રીત",
+  "meta.visual.showScan": "“પાનું સ્કૅન કરો” બટન શોધો",
+  "meta.visual.showIcon": "આઇકન શોધો",
+  "meta.visual.chromePhoto": "Chrome ટૂલબારનો સ્ક્રીનશૉટ",
+  "meta.visual.workspacePhoto": "કાર્યસ્થળનો સ્ક્રીનશૉટ"
 }

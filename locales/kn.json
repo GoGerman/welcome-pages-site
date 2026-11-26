@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "ಪುಟಗಳನ್ನು ಗುರುತಿಸಿ ಉಳಿದವುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
   "pdf.usage.step4.body": "{createCopy} ಕ್ಲಿಕ್ ಮಾಡಿ, ನಂತರ {downloadCopy} ಕ್ಲಿಕ್ ಮಾಡಿ. Chrome ಪ್ರತ್ಯೇಕ PDF ಡೌನ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಮೂಲ ಕಡತ ಉಳಿಯುತ್ತದೆ.",
   "pdf.usage.step4.imageAlt": "ಪರಿಶೀಲನೆ ಪರದೆಯಲ್ಲಿ ಹೊಸ ಪ್ರತಿ ಮಾಡುವ ಬಟನ್ ಮತ್ತು ಪ್ರತಿ ಸಿದ್ಧವಾದ ನಂತರ ಕಾಣುವ ಡೌನ್‌ಲೋಡ್ ಬಟನ್.",
-  "pdf.usage.step4.title": "ಹೊಸ ಪ್ರತಿಯನ್ನು ಉಳಿಸಿ"
+  "pdf.usage.step4.title": "ಹೊಸ ಪ್ರತಿಯನ್ನು ಉಳಿಸಿ",
+  "meta.visual.pinTitle": "Meta ಐಕಾನ್ ಹುಡುಕಿ",
+  "meta.visual.pinGuide": "ಪಜಲ್ ಐಕಾನ್ ಬಳಸಿ ವಿಸ್ತರಣೆಗಳ ಮೆನು ತೆರೆಯಿರಿ. “{name}” ಅನ್ನು ಪಿನ್ ಮಾಡಿ. ಬಳಿಕ ನೀವು ಪರಿಶೀಲಿಸಲು ಬಯಸುವ ಪುಟದಲ್ಲಿ ಅದರ ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡಿ.",
+  "meta.visual.example": "ಉದಾಹರಣೆ ತೆರೆಯಿರಿ",
+  "meta.visual.alreadyPinned": "ನನ್ನ ಐಕಾನ್ ಈಗಾಗಲೇ ಪಿನ್ ಆಗಿದೆ",
+  "meta.visual.showPin": "ಐಕಾನ್ ಪಿನ್ ಮಾಡುವ ವಿಧಾನ",
+  "meta.visual.showScan": "“ಪುಟವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ” ಬಟನ್ ಹುಡುಕಿ",
+  "meta.visual.showIcon": "ಐಕಾನ್ ಹುಡುಕಿ",
+  "meta.visual.chromePhoto": "Chrome ಟೂಲ್‌ಬಾರ್‌ನ ಸ್ಕ್ರೀನ್‌ಶಾಟ್",
+  "meta.visual.workspacePhoto": "ಕಾರ್ಯಸ್ಥಳದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Assinalar páginas e verificar quais são mantidas",
   "pdf.usage.step4.body": "Clique em «{createCopy}» e depois em «{downloadCopy}». O Chrome transfere um PDF separado e mantém o ficheiro original.",
   "pdf.usage.step4.imageAlt": "Botão «Criar nova cópia» no ecrã de verificação e botão «Transferir nova cópia», apresentado quando a cópia está pronta.",
-  "pdf.usage.step4.title": "Guardar uma nova cópia"
+  "pdf.usage.step4.title": "Guardar uma nova cópia",
+  "meta.visual.pinTitle": "Encontre o ícone do Meta",
+  "meta.visual.pinGuide": "Abra o menu «Extensões» através do ícone em forma de peça de puzzle. Fixe {name} e clique no respetivo ícone na página que pretende analisar.",
+  "meta.visual.example": "Abrir o exemplo",
+  "meta.visual.alreadyPinned": "O meu ícone já está fixado",
+  "meta.visual.showPin": "Como fixar o ícone",
+  "meta.visual.showScan": "Encontrar «Analisar página»",
+  "meta.visual.showIcon": "Encontrar o ícone",
+  "meta.visual.chromePhoto": "Captura de ecrã da barra de ferramentas do Chrome",
+  "meta.visual.workspacePhoto": "Captura de ecrã do espaço de trabalho"
 }

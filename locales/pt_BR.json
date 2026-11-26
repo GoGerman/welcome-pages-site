@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Marcar páginas e revisar as que serão mantidas",
   "pdf.usage.step4.body": "Clique em “{createCopy}” e depois em “{downloadCopy}”. O Chrome baixa um PDF separado e mantém o arquivo original.",
   "pdf.usage.step4.imageAlt": "Botão “Criar nova cópia” na tela de revisão e botão “Baixar nova cópia”, exibido quando a cópia está pronta.",
-  "pdf.usage.step4.title": "Salvar uma nova cópia"
+  "pdf.usage.step4.title": "Salvar uma nova cópia",
+  "meta.visual.pinTitle": "Encontre o ícone do Meta",
+  "meta.visual.pinGuide": "Abra o menu “Extensões” pelo ícone em forma de peça de quebra-cabeça. Fixe {name} e clique no ícone da extensão na página que você quer analisar.",
+  "meta.visual.example": "Abrir exemplo",
+  "meta.visual.alreadyPinned": "Meu ícone já está fixado",
+  "meta.visual.showPin": "Como fixar o ícone",
+  "meta.visual.showScan": "Encontrar “Analisar página”",
+  "meta.visual.showIcon": "Encontrar o ícone",
+  "meta.visual.chromePhoto": "Captura de tela da barra de ferramentas do Chrome",
+  "meta.visual.workspacePhoto": "Captura de tela do espaço de trabalho"
 }

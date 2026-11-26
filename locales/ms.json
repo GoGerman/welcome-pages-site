@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Tandakan halaman dan semak halaman yang tinggal",
   "pdf.usage.step4.body": "Klik {createCopy}, kemudian {downloadCopy}. Chrome memuat turun PDF berasingan dan mengekalkan fail asal.",
   "pdf.usage.step4.imageAlt": "Butang Cipta salinan baharu pada skrin semakan dan butang Muat turun salinan baharu yang dipaparkan apabila salinan siap.",
-  "pdf.usage.step4.title": "Simpan salinan baharu"
+  "pdf.usage.step4.title": "Simpan salinan baharu",
+  "meta.visual.pinTitle": "Cari ikon Meta",
+  "meta.visual.pinGuide": "Buka menu Sambungan melalui ikon berbentuk kepingan teka-teki. Sematkan {name}, kemudian klik ikonnya pada halaman yang ingin anda semak.",
+  "meta.visual.example": "Buka contoh",
+  "meta.visual.alreadyPinned": "Ikon saya sudah disematkan",
+  "meta.visual.showPin": "Cara menyematkan ikon",
+  "meta.visual.showScan": "Cari butang “Imbas halaman”",
+  "meta.visual.showIcon": "Cari ikon",
+  "meta.visual.chromePhoto": "Tangkapan skrin bar alat Chrome",
+  "meta.visual.workspacePhoto": "Tangkapan skrin ruang kerja"
 }

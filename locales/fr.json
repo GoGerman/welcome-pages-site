@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Marquer les pages et vérifier celles à conserver",
   "pdf.usage.step4.body": "Cliquez sur « {createCopy} », puis sur « {downloadCopy} ». Chrome télécharge un PDF distinct et conserve votre fichier d’origine.",
   "pdf.usage.step4.imageAlt": "Le bouton « Créer une nouvelle copie » sur l’écran de vérification et le bouton « Télécharger la nouvelle copie », qui apparaît lorsque la copie est prête.",
-  "pdf.usage.step4.title": "Enregistrer une nouvelle copie"
+  "pdf.usage.step4.title": "Enregistrer une nouvelle copie",
+  "meta.visual.pinTitle": "Repérez l’icône de Meta",
+  "meta.visual.pinGuide": "Ouvrez le menu « Extensions » avec l’icône en forme de pièce de puzzle. Épinglez « {name} », puis cliquez sur son icône depuis la page que vous souhaitez vérifier.",
+  "meta.visual.example": "Ouvrir l’exemple",
+  "meta.visual.alreadyPinned": "Mon icône est déjà épinglée",
+  "meta.visual.showPin": "Comment épingler l’icône",
+  "meta.visual.showScan": "Repérer « Analyser la page »",
+  "meta.visual.showIcon": "Repérer l’icône",
+  "meta.visual.chromePhoto": "Capture de la barre d’outils de Chrome",
+  "meta.visual.workspacePhoto": "Capture de l’espace de travail"
 }

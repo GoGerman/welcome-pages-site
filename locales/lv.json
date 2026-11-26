@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Atzīmējiet lapas un pārbaudiet atlikušās",
   "pdf.usage.step4.body": "Noklikšķiniet uz {createCopy}, pēc tam uz {downloadCopy}. Chrome lejupielādē atsevišķu PDF failu un patur oriģinālo failu.",
   "pdf.usage.step4.imageAlt": "Poga “Izveidot jaunu kopiju” pārbaudes ekrānā un poga “Lejupielādēt jauno kopiju”, kas parādās, kad kopija ir gatava.",
-  "pdf.usage.step4.title": "Saglabājiet jaunu kopiju"
+  "pdf.usage.step4.title": "Saglabājiet jaunu kopiju",
+  "meta.visual.pinTitle": "Atrodiet Meta ikonu",
+  "meta.visual.pinGuide": "Atveriet izvēlni “Paplašinājumi”, noklikšķinot uz puzles gabaliņa ikonas. Piespraudiet “{name}”, pēc tam, kad atvērta pārbaudāmā lapa, noklikšķiniet uz paplašinājuma ikonas.",
+  "meta.visual.example": "Atvērt piemēru",
+  "meta.visual.alreadyPinned": "Mana ikona jau ir piesprausta",
+  "meta.visual.showPin": "Kā piespraust ikonu",
+  "meta.visual.showScan": "Atrast “Skenēt lapu”",
+  "meta.visual.showIcon": "Atrast ikonu",
+  "meta.visual.chromePhoto": "Chrome rīkjoslas ekrānuzņēmums",
+  "meta.visual.workspacePhoto": "Darbvietas ekrānuzņēmums"
 }

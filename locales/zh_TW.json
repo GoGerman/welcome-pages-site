@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "標記頁面並檢查保留頁",
   "pdf.usage.step4.body": "按一下「{createCopy}」，再按一下「{downloadCopy}」。Chrome 會下載另一份 PDF，原始檔案會保留。",
   "pdf.usage.step4.imageAlt": "核對介面中的「建立新副本」按鈕，以及副本生成後出現的「下載新副本」按鈕。",
-  "pdf.usage.step4.title": "儲存新副本"
+  "pdf.usage.step4.title": "儲存新副本",
+  "meta.visual.pinTitle": "找到 Meta 圖示",
+  "meta.visual.pinGuide": "按一下拼圖圖示開啟「擴充功能」選單，釘選「{name}」，接著在要檢查的網頁按一下它的圖示。",
+  "meta.visual.example": "開啟範例",
+  "meta.visual.alreadyPinned": "我的圖示已釘選",
+  "meta.visual.showPin": "如何釘選圖示",
+  "meta.visual.showScan": "找到「掃描頁面」按鈕",
+  "meta.visual.showIcon": "找到圖示",
+  "meta.visual.chromePhoto": "Chrome 工具列螢幕截圖",
+  "meta.visual.workspacePhoto": "工作區螢幕截圖"
 }

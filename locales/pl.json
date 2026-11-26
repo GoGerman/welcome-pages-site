@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Zaznacz strony i sprawdź, które pozostaną",
   "pdf.usage.step4.body": "Kliknij {createCopy}, a następnie {downloadCopy}. Chrome pobierze oddzielny PDF i zachowa oryginalny plik.",
   "pdf.usage.step4.imageAlt": "Przycisk tworzenia kopii na ekranie przeglądu oraz przycisk jej pobierania widoczny po przygotowaniu.",
-  "pdf.usage.step4.title": "Zapisz nową kopię"
+  "pdf.usage.step4.title": "Zapisz nową kopię",
+  "meta.visual.pinTitle": "Znajdź ikonę Meta",
+  "meta.visual.pinGuide": "Otwórz menu „Rozszerzenia”, klikając ikonę w kształcie puzzla. Przypnij {name}, a potem kliknij jego ikonę na stronie, którą chcesz sprawdzić.",
+  "meta.visual.example": "Otwórz przykład",
+  "meta.visual.alreadyPinned": "Moja ikona jest już przypięta",
+  "meta.visual.showPin": "Jak przypiąć ikonę",
+  "meta.visual.showScan": "Znajdź „Przeskanuj stronę”",
+  "meta.visual.showIcon": "Znajdź ikonę",
+  "meta.visual.chromePhoto": "Zrzut ekranu paska narzędzi Chrome",
+  "meta.visual.workspacePhoto": "Zrzut ekranu karty roboczej"
 }

@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Jelöld meg az oldalakat, és nézd át, mi marad",
   "pdf.usage.step4.body": "Kattints erre: {createCopy}, majd erre: {downloadCopy}. A Chrome külön PDF-et tölt le, az eredeti fájl megmarad.",
   "pdf.usage.step4.imageAlt": "Az „Új másolat készítése” gomb az áttekintő képernyőn, és az „Új másolat letöltése” gomb, amely a másolat elkészültekor jelenik meg.",
-  "pdf.usage.step4.title": "Ments új másolatot"
+  "pdf.usage.step4.title": "Ments új másolatot",
+  "meta.visual.pinTitle": "Keresd meg a Meta ikonját",
+  "meta.visual.pinGuide": "Nyisd meg a Bővítmények menüt a kirakódarab ikonnal. Rögzítsd a(z) „{name}” bővítményt, majd kattints az ikonjára a vizsgálni kívánt oldalon.",
+  "meta.visual.example": "Példa megnyitása",
+  "meta.visual.alreadyPinned": "Az ikonom már rögzítve van",
+  "meta.visual.showPin": "Az ikon rögzítése",
+  "meta.visual.showScan": "A(z) „Oldal vizsgálata” gomb megkeresése",
+  "meta.visual.showIcon": "Az ikon megkeresése",
+  "meta.visual.chromePhoto": "Képernyőkép a Chrome eszköztáráról",
+  "meta.visual.workspacePhoto": "Képernyőkép a munkaterületről"
 }

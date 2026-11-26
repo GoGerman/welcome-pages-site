@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "পৃষ্ঠা চিহ্নিত করে বাকি পৃষ্ঠা যাচাই করুন",
   "pdf.usage.step4.body": "{createCopy}-এ ক্লিক করে {downloadCopy}-এ ক্লিক করুন। Chrome একটি আলাদা PDF ডাউনলোড করবে এবং মূল ফাইল রেখে দেবে।",
   "pdf.usage.step4.imageAlt": "যাচাইয়ের স্ক্রিনে নতুন অনুলিপি তৈরির বোতাম এবং অনুলিপি প্রস্তুত হলে দেখা যায় এমন ডাউনলোড বোতাম।",
-  "pdf.usage.step4.title": "নতুন অনুলিপি সংরক্ষণ করুন"
+  "pdf.usage.step4.title": "নতুন অনুলিপি সংরক্ষণ করুন",
+  "meta.visual.pinTitle": "Meta আইকনটি খুঁজুন",
+  "meta.visual.pinGuide": "পাজল আইকন থেকে এক্সটেনশন মেনু খুলুন। “{name}” পিন করুন, তারপর যে পৃষ্ঠাটি পরীক্ষা করতে চান সেখানে এর আইকনে ক্লিক করুন।",
+  "meta.visual.example": "উদাহরণ খুলুন",
+  "meta.visual.alreadyPinned": "আমার আইকনটি আগে থেকেই পিন করা আছে",
+  "meta.visual.showPin": "আইকন পিন করার উপায়",
+  "meta.visual.showScan": "“পৃষ্ঠা স্ক্যান করুন” বোতামটি খুঁজুন",
+  "meta.visual.showIcon": "আইকনটি খুঁজুন",
+  "meta.visual.chromePhoto": "Chrome টুলবারের স্ক্রিনশট",
+  "meta.visual.workspacePhoto": "কাজের পৃষ্ঠার স্ক্রিনশট"
 }

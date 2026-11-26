@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Позначте сторінки та перевірте, які залишаться",
   "pdf.usage.step4.body": "Натисніть {createCopy}, потім {downloadCopy}. Chrome завантажує окремий PDF і залишає файл оригіналу.",
   "pdf.usage.step4.imageAlt": "Кнопка створення копії на екрані перевірки й кнопка її завантаження, що з’являється після підготовки.",
-  "pdf.usage.step4.title": "Збережіть нову копію"
+  "pdf.usage.step4.title": "Збережіть нову копію",
+  "meta.visual.pinTitle": "Знайдіть значок Meta",
+  "meta.visual.pinGuide": "Натисніть значок у формі пазла, щоб відкрити меню «Розширення». Закріпіть {name}, а потім натисніть значок розширення на сторінці, яку хочете перевірити.",
+  "meta.visual.example": "Відкрити приклад",
+  "meta.visual.alreadyPinned": "Мій значок уже закріплено",
+  "meta.visual.showPin": "Як закріпити значок",
+  "meta.visual.showScan": "Знайти «Почати сканування»",
+  "meta.visual.showIcon": "Знайти значок",
+  "meta.visual.chromePhoto": "Знімок панелі інструментів Chrome",
+  "meta.visual.workspacePhoto": "Знімок робочої вкладки"
 }

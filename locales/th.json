@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "ทำเครื่องหมายหน้าที่นำออกและตรวจหน้าที่เหลือ",
   "pdf.usage.step4.body": "คลิก {createCopy} แล้วคลิก {downloadCopy} Chrome จะดาวน์โหลด PDF แยกต่างหากและเก็บต้นฉบับไว้",
   "pdf.usage.step4.imageAlt": "ปุ่มสร้างสำเนาใหม่บนหน้าตรวจสอบ และปุ่มดาวน์โหลดสำเนาใหม่ที่ปรากฏเมื่อสำเนาพร้อม",
-  "pdf.usage.step4.title": "บันทึกสำเนาใหม่"
+  "pdf.usage.step4.title": "บันทึกสำเนาใหม่",
+  "meta.visual.pinTitle": "หาไอคอน Meta",
+  "meta.visual.pinGuide": "คลิกไอคอนรูปจิ๊กซอว์เพื่อเปิดเมนูส่วนขยาย ปักหมุด “{name}” แล้วคลิกไอคอนของส่วนขยายบนหน้าที่ต้องการตรวจสอบ",
+  "meta.visual.example": "เปิดตัวอย่าง",
+  "meta.visual.alreadyPinned": "ฉันปักหมุดไอคอนแล้ว",
+  "meta.visual.showPin": "วิธีปักหมุดไอคอน",
+  "meta.visual.showScan": "หาปุ่ม “สแกนหน้า”",
+  "meta.visual.showIcon": "หาไอคอน",
+  "meta.visual.chromePhoto": "ภาพหน้าจอแถบเครื่องมือ Chrome",
+  "meta.visual.workspacePhoto": "ภาพหน้าจอพื้นที่ทำงาน"
 }

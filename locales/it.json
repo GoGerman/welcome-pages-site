@@ -117,5 +117,14 @@
   "pdf.usage.step3.title": "Seleziona le pagine e verifica quali restano",
   "pdf.usage.step4.body": "Fai clic su «{createCopy}», poi su «{downloadCopy}». Chrome scarica un PDF separato e conserva il file originale.",
   "pdf.usage.step4.imageAlt": "Pulsante «Crea una nuova copia» nella schermata di verifica e pulsante «Scarica la nuova copia» quando la copia è pronta.",
-  "pdf.usage.step4.title": "Salva una nuova copia"
+  "pdf.usage.step4.title": "Salva una nuova copia",
+  "meta.visual.pinTitle": "Trova l’icona di Meta",
+  "meta.visual.pinGuide": "Apri il menu «Estensioni» con l’icona a forma di tessera di puzzle. Fissa «{name}», quindi fai clic sulla sua icona dalla pagina che vuoi controllare.",
+  "meta.visual.example": "Apri l’esempio",
+  "meta.visual.alreadyPinned": "Ho già fissato l’icona",
+  "meta.visual.showPin": "Come fissare l’icona",
+  "meta.visual.showScan": "Trova «Analizza pagina»",
+  "meta.visual.showIcon": "Trova l’icona",
+  "meta.visual.chromePhoto": "Screenshot della barra degli strumenti di Chrome",
+  "meta.visual.workspacePhoto": "Screenshot dell’area di lavoro"
 }
